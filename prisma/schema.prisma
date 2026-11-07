@@ -1,0 +1,203 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Empresa {
+  id String @id @default(cuid())
+
+  // Datos generales
+  folio           String?       @unique
+  rfc             String
+  curp            String?
+  tipoEmpleador   TipoEmpleador
+  tipoPersona     TipoPersona?
+  razonSocial     String?
+  nombreComercial String?
+  tipoSociedad    String?
+
+  // Domicilio fiscal
+  calle          String?
+  numeroExterior String?
+  numeroInterior String?
+  colonia        String?
+  municipio      String?
+  localidad      String?
+  entidad        String?
+  codigoPostal   String?
+  entreCalles    String?
+
+  // Clasificación
+  cantidadEempleados Int
+  ramaActividad      String
+  descripcion        String?
+
+  // Información general
+  correoGeneral String
+  paginaWeb     String?
+
+  // Relaciones
+  contactos ContactoEmpresa[]
+  vacantes  Vacante[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([razonSocial])
+  @@index([rfc])
+}
+
+model ContactoEmpresa {
+  id String @id @default(cuid())
+
+  empresaId String
+  empresa   Empresa @relation(fields: [empresaId], references: [id], onDelete: Cascade)
+
+  nombres      String
+  apellidos    String
+  cargo        String
+  telefonoFijo String?
+  extension    String?
+  celular      String?
+  correo       String?
+  telsne       String?
+
+  registrar Boolean @default(true)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([empresaId])
+}
+
+model Vacante {
+  id      String  @id @default(cuid())
+  idSilap String? @unique
+
+  empresaId String
+  empresa   Empresa @relation(fields: [empresaId], references: [id])
+
+  // Datos de la vacante
+  puesto String
+  plazas Int    @default(1)
+
+  edadMinima  Int?
+  edadMaxima  Int?
+  escolaridad String?
+  sexo Sexo
+
+  sueldoMensual Decimal @db.Decimal(10, 2)
+
+  diasTrabajo    Int?
+  horarioTrabajo String?
+
+  experienciaAnios Int
+
+  aceptaDiscapacidad Boolean @default(false)
+  tipoDiscapacidad   TipoDiscapacidad?
+
+  descripcionPuesto String
+  conocimientos     String
+  prestaciones      String
+
+  tiempoReclutamiento String
+
+  // Control interno
+  estado        EstadoVacante @default(VIGENTE)
+  fechaRegistro DateTime
+  observaciones String?
+
+  // Relaciones
+  mediosContacto MedioContactoVacante[]
+  seguimientos   SeguimientoVacante[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([empresaId])
+  @@index([fechaRegistro])
+  @@index([estado])
+  @@index([puesto])
+}
+
+model MedioContactoVacante {
+  id String @id @default(cuid())
+
+  vacanteId String
+  vacante   Vacante @relation(fields: [vacanteId], references: [id], onDelete: Cascade)
+
+  tipo    TipoMedioContacto
+  horario String?
+
+  @@index([vacanteId])
+}
+
+model SeguimientoVacante {
+  id String @id @default(cuid())
+
+  vacanteId String
+  vacante   Vacante @relation(fields: [vacanteId], references: [id], onDelete: Cascade)
+
+  fecha      DateTime             @default(now())
+  resultado  ResultadoSeguimiento
+  comentario String?
+
+  createdAt DateTime @default(now())
+
+  @@index([vacanteId])
+  @@index([fecha])
+}
+
+enum TipoEmpleador {
+  PRIVADA
+  PUBLICA
+  SOCIAL
+}
+
+enum TipoPersona {
+  FISICA
+  MORAL
+}
+
+enum EstadoVacante {
+  VIGENTE
+  PENDIENTE
+  CUBIERTA
+  NO_VIGENTE
+}
+
+enum TipoMedioContacto {
+  CORREO
+  DOMICILIO
+  TELEFONO
+  WHATSAPP
+}
+
+enum ResultadoSeguimiento {
+  VIGENTE
+  CUBIERTA
+  NO_VIGENTE
+  SIN_RESPUESTA
+  PENDIENTE
+}
+
+enum Sexo {
+  FEMENINO
+  MASCULINO
+  INDISTINTO
+}
+
+enum TipoDiscapacidad {
+  AUDITIVA
+  INTELECTUAL
+  MENTAL
+  MOTORA 
+  VISUAL
+  COMUNICACION
+  INTELECTUAL_MENTAL
+  OTRAS
+}
