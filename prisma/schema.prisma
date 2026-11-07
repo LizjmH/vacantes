@@ -3,6 +3,11 @@ generator client {
   output   = "../src/generated/prisma"
 }
 
+generator erd {
+  provider = "prisma-erd-editor"
+  output   = "./schema.erd"
+}
+
 datasource db {
   provider = "postgresql"
 }
@@ -20,17 +25,6 @@ model Empresa {
   nombreComercial String?
   tipoSociedad    String?
 
-  // Domicilio fiscal
-  calle          String?
-  numeroExterior String?
-  numeroInterior String?
-  colonia        String?
-  municipio      String?
-  localidad      String?
-  entidad        String?
-  codigoPostal   String?
-  entreCalles    String?
-
   // Clasificación
   cantidadEempleados Int
   ramaActividad      String
@@ -41,8 +35,12 @@ model Empresa {
   paginaWeb     String?
 
   // Relaciones
-  contactos ContactoEmpresa[]
-  vacantes  Vacante[]
+  contactoId  String           @unique
+  contacto    ContactoEmpresa  @relation(fields: [contactoId], references: [id])
+  domicilioId String           @unique
+  domicilio   DomicilioEmpresa @relation(fields: [domicilioId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+
+  vacantes Vacante[]
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -51,11 +49,24 @@ model Empresa {
   @@index([rfc])
 }
 
-model ContactoEmpresa {
+model DomicilioEmpresa {
   id String @id @default(cuid())
 
-  empresaId String
-  empresa   Empresa @relation(fields: [empresaId], references: [id], onDelete: Cascade)
+  calle          String?
+  numeroExterior String?
+  numeroInterior String?
+  colonia        String?
+  municipio      String?
+  localidad      String?
+  entidad        String?
+  codigoPostal   String?
+  entreCalles    String?
+
+  empresa Empresa?
+}
+
+model ContactoEmpresa {
+  id String @id @default(cuid())
 
   nombres      String
   apellidos    String
@@ -71,7 +82,7 @@ model ContactoEmpresa {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  @@index([empresaId])
+  empresa Empresa?
 }
 
 model Vacante {
@@ -88,7 +99,7 @@ model Vacante {
   edadMinima  Int?
   edadMaxima  Int?
   escolaridad String?
-  sexo Sexo
+  sexo        Sexo
 
   sueldoMensual Decimal @db.Decimal(10, 2)
 
@@ -97,7 +108,7 @@ model Vacante {
 
   experienciaAnios Int
 
-  aceptaDiscapacidad Boolean @default(false)
+  aceptaDiscapacidad Boolean           @default(false)
   tipoDiscapacidad   TipoDiscapacidad?
 
   descripcionPuesto String
@@ -107,9 +118,8 @@ model Vacante {
   tiempoReclutamiento String
 
   // Control interno
-  estado        EstadoVacante @default(VIGENTE)
-  fechaRegistro DateTime
-  observaciones String?
+  cubierta      Boolean  @default(false)
+  fechaReinicio DateTime
 
   // Relaciones
   mediosContacto MedioContactoVacante[]
@@ -119,8 +129,8 @@ model Vacante {
   updatedAt DateTime @updatedAt
 
   @@index([empresaId])
-  @@index([fechaRegistro])
-  @@index([estado])
+  @@index([fechaReinicio])
+  @@index([cubierta])
   @@index([puesto])
 }
 
@@ -146,8 +156,6 @@ model SeguimientoVacante {
   resultado  ResultadoSeguimiento
   comentario String?
 
-  createdAt DateTime @default(now())
-
   @@index([vacanteId])
   @@index([fecha])
 }
@@ -163,13 +171,6 @@ enum TipoPersona {
   MORAL
 }
 
-enum EstadoVacante {
-  VIGENTE
-  PENDIENTE
-  CUBIERTA
-  NO_VIGENTE
-}
-
 enum TipoMedioContacto {
   CORREO
   DOMICILIO
@@ -180,8 +181,6 @@ enum TipoMedioContacto {
 enum ResultadoSeguimiento {
   VIGENTE
   CUBIERTA
-  NO_VIGENTE
-  SIN_RESPUESTA
   PENDIENTE
 }
 
@@ -195,7 +194,7 @@ enum TipoDiscapacidad {
   AUDITIVA
   INTELECTUAL
   MENTAL
-  MOTORA 
+  MOTORA
   VISUAL
   COMUNICACION
   INTELECTUAL_MENTAL

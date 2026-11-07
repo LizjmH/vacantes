@@ -5,11 +5,11 @@
     "originX": 0,
     "originY": 0,
     "zoomLevel": 1,
-    "show": 495,
+    "show": 511,
     "database": 16,
     "databaseName": "",
     "canvasType": "ERD",
-    "language": 1,
+    "language": 16,
     "tableNameCase": 4,
     "columnNameCase": 2,
     "bracketType": 1,
@@ -28,905 +28,986 @@
   },
   "doc": {
     "tableIds": [
-      "03h1ugd3gbp4tw86cyfbfhknq",
-      "03h1ugd3gmlhruuv884e9ej9h",
-      "03h1ugd3gs7wx5wx9ssisrb24",
-      "03h1ugd3h32z4r74pzzvrsauo",
-      "03h1ugd3h32z4r74q0be77290"
+      "H8v4NtsH1bK5onJVucw9Y",
+      "XA4ZQy2kywB9gXaqNizfp",
+      "G0_9gnlriZMlbke7SZ__X",
+      "qL3FUG1KNkluADKJoB1gq",
+      "1dD3i-Z3R7p_QZjbor8-1",
+      "NAfl1fSYLZut7rcWxeptf"
     ],
     "relationshipIds": [
-      "03h1ugd3hozlqjaaw3u79839w",
-      "03h1ugd3huf04ubxj2qhwqwrx",
-      "03h1ugd3huf04ubxj2rqyhxeo",
-      "03h1ugd3huf04ubxj2u9gym7g"
+      "Dw5sTdyoL--PxEGfxABcm",
+      "qdKURxKIBXhfZ1k1dFSUw",
+      "2I_8hsb4frwHT1M7ByJmH",
+      "NF6nyvuZ2xwusf2rN9x63",
+      "BTQB2m-myTa-mmz6L59An"
     ],
     "indexIds": [
-      "03h1ugd3hzwh2no2839w2k5kr",
-      "03h1ugd3hzwh2no283eqe7tcg",
-      "03h1ugd3hzwh2no283i6v7wj8",
-      "03h1ugd3hzwh2no283mh7fgbm",
-      "03h1ugd3i5f18yow447ewxg4c",
-      "03h1ugd3i5f18yow44a4prchh",
-      "03h1ugd3i5f18yow44e5idy89",
-      "03h1ugd3i5f18yow44id6k0dk",
-      "03h1ugd3i5f18yow44m6la7rg",
-      "03h1ugd3i5f18yow44qqj5g1u",
-      "03h1ugd3i5f18yow44vclyuf2"
+      "4kcjyQ3mGNhaQj9UfKTsJ",
+      "GvYN4uu3dDE5NdJ7PHs8j",
+      "oZ1BX1rc2j9bEbFHK3-w4",
+      "Uu5YLl3IhA4VTorVLaMCZ",
+      "3O-9D6koKNgD2b-AIzZJH",
+      "WmuzvNLk-zf5P_a7wjyR-",
+      "uVm6S9fuvQ0A1KcMztK_9",
+      "4L7uhApDGxwSgU6tMOf5X",
+      "XpDQL4WvR_3-dbFNkGA0s"
+    ],
+    "memoIds": [
+      "n_uLq2zyU4H4mXVOBZWa1",
+      "7NhEOiCyP-MKizbTSTx2j",
+      "CWG23piNmanRI0VLddj0n",
+      "wIHXxeKCU3e5ljZKfi1-m",
+      "8Yz9_rlnD-JPYxX6LyjGK",
+      "-BeIhZARLNg55WHcl_9Py"
     ]
   },
   "collections": {
     "tableEntities": {
-      "03h1ugd3gbp4tw86cyfbfhknq": {
-        "id": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "Empresa",
-        "columnIds": [
-          "03h1ugd3gbp4tw86cyh8lial2",
-          "03h1ugd3gh771kmuxy0f7zzxv",
-          "03h1ugd3gh771kmuxy0vf7yrg",
-          "03h1ugd3gh771kmuxy498epbc",
-          "03h1ugd3gh771kmuxy64e2mjk",
-          "03h1ugd3gh771kmuxy7ftza82",
-          "03h1ugd3gh771kmuxyac7336c",
-          "03h1ugd3gh771kmuxyb055ce7",
-          "03h1ugd3gh771kmuxydq1gl18",
-          "03h1ugd3gh771kmuxyfuozd9i",
-          "03h1ugd3gmlhruuv878yfm39r",
-          "03h1ugd3gmlhruuv87bzegix6",
-          "03h1ugd3gmlhruuv87cxfplcs",
-          "03h1ugd3gmlhruuv87f3r3l6f",
-          "03h1ugd3gmlhruuv87h81psi3",
-          "03h1ugd3gmlhruuv87j96v0li",
-          "03h1ugd3gmlhruuv87ldfv8m4",
-          "03h1ugd3gmlhruuv87n01vqhi",
-          "03h1ugd3gmlhruuv87pr7056j",
-          "03h1ugd3gmlhruuv87rq4y6rt",
-          "03h1ugd3gmlhruuv87toeaiqg",
-          "03h1ugd3gmlhruuv87v9q4bik",
-          "03h1ugd3gmlhruuv87w8dgm7e",
-          "03h1ugd3gmlhruuv87ykjwtyf",
-          "03h1ugd3gmlhruuv880katp3k",
-          "03h1ugd3gmlhruuv882oppnwt"
-        ],
-        "ui": {
-          "x": 67.8082,
-          "y": 165.7123
-        }
-      },
-      "03h1ugd3gmlhruuv884e9ej9h": {
-        "id": "03h1ugd3gmlhruuv884e9ej9h",
-        "name": "ContactoEmpresa",
-        "columnIds": [
-          "03h1ugd3gmlhruuv886iufbh7",
-          "03h1ugd3gmlhruuv888gube74",
-          "03h1ugd3gs7wx5wx9sb3dho3f",
-          "03h1ugd3gs7wx5wx9sd2j09lg",
-          "03h1ugd3gs7wx5wx9sg01g915",
-          "03h1ugd3gs7wx5wx9sicc8qbu",
-          "03h1ugd3gs7wx5wx9sjm9kmoz",
-          "03h1ugd3gs7wx5wx9slp3xhob",
-          "03h1ugd3gs7wx5wx9sneia1h9",
-          "03h1ugd3gs7wx5wx9spkil1f6",
-          "03h1ugd3gs7wx5wx9srby3dp8"
-        ],
-        "ui": {
-          "x": 1302.4932,
-          "y": 618.4932
-        }
-      },
-      "03h1ugd3gs7wx5wx9ssisrb24": {
-        "id": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "Vacante",
-        "columnIds": [
-          "03h1ugd3gs7wx5wx9svcl2wu3",
-          "03h1ugd3gs7wx5wx9sxfaev0i",
-          "03h1ugd3gs7wx5wx9szjzn669",
-          "03h1ugd3gs7wx5wx9t1sp57o9",
-          "03h1ugd3gxjmary05wnjpjux1",
-          "03h1ugd3gxjmary05woot6ztm",
-          "03h1ugd3gxjmary05wrmpij8f",
-          "03h1ugd3gxjmary05wsukmusu",
-          "03h1ugd3gxjmary05wvxzqhb0",
-          "03h1ugd3gxjmary05wxftqezz",
-          "03h1ugd3gxjmary05wzstq3z7",
-          "03h1ugd3gxjmary05x1850nsy",
-          "03h1ugd3gxjmary05x3b5grk0",
-          "03h1ugd3gxjmary05x5bubwop",
-          "03h1ugd3gxjmary05x7o5eao5",
-          "03h1ugd3gxjmary05x8ovg471",
-          "03h1ugd3gxjmary05xbw5t372",
-          "03h1ugd3gxjmary05xc5f4g77",
-          "03h1ugd3gxjmary05xekceyj4",
-          "03h1ugd3h32z4r74pzsla175e",
-          "03h1ugd3h32z4r74pztxrijsu",
-          "03h1ugd3h32z4r74pzvjiip5h",
-          "03h1ugd3h32z4r74pzxikdkz4"
-        ],
-        "ui": {
-          "x": 707.9727,
-          "y": 82.9041
-        }
-      },
-      "03h1ugd3h32z4r74pzzvrsauo": {
-        "id": "03h1ugd3h32z4r74pzzvrsauo",
+      "1dD3i-Z3R7p_QZjbor8-1": {
+        "id": "1dD3i-Z3R7p_QZjbor8-1",
         "name": "MedioContactoVacante",
         "columnIds": [
-          "03h1ugd3h32z4r74q020es1sk",
-          "03h1ugd3h32z4r74q04fdtn78",
-          "03h1ugd3h32z4r74q06khio2u",
-          "03h1ugd3h32z4r74q08euoobu",
-          "03h1ugd3h32z4r74q0944khhc"
+          "B1EKy7hnJAQoFztRdoR6e",
+          "enYM_u8qv6WylT-8m7TWr",
+          "3hbwdJ8OLITRw-0KuggMB",
+          "6xmSdlyiBclhkNA54U8HD"
         ],
         "ui": {
-          "x": 1377.5753,
-          "y": 165.726
+          "x": 1253.8265,
+          "y": 476.7905
         }
       },
-      "03h1ugd3h32z4r74q0be77290": {
-        "id": "03h1ugd3h32z4r74q0be77290",
-        "name": "SeguimientoVacante",
+      "G0_9gnlriZMlbke7SZ__X": {
+        "id": "G0_9gnlriZMlbke7SZ__X",
+        "name": "ContactoEmpresa",
         "columnIds": [
-          "03h1ugd3hjffdn8382sy69lb0",
-          "03h1ugd3hjffdn8382vdawdvi",
-          "03h1ugd3hjffdn8382vphm3sq",
-          "03h1ugd3hjffdn8382y4uqhsv",
-          "03h1ugd3hjffdn838317gxzr8",
-          "03h1ugd3hjffdn83831jgmezv"
+          "A57ICu-z8QCId0DA6MhPu",
+          "68Fvj1JPesxNcDSbvY2zK",
+          "85sUWKlfNAZHkz4MVJs7G",
+          "4th-m9hlt2mwO3XzrXfBE",
+          "0JBb9gA68BasICkg9GbKY",
+          "l07jpgNdGcWgG6qU9h4Vp",
+          "ujZe_-zp1HUtXUwOneDXk",
+          "VXfVV1iM8ThOn3T42t4kD",
+          "IxBGkBL1hI7x6fvLq0LN2",
+          "VU1UYZhEKAfbDyPxbmRaN",
+          "r4rrYFIrf9p73azeYUeAO",
+          "p0UkaXA4mxohBSZ2SeNPW"
         ],
         "ui": {
-          "x": 1370.726,
-          "y": 386.137
+          "x": 49.8766,
+          "y": 585.9255
+        }
+      },
+      "H8v4NtsH1bK5onJVucw9Y": {
+        "id": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "Empresa",
+        "columnIds": [
+          "WoJX3rjRaTV8WTp2271aA",
+          "0FnAW4TktF2R6qKZB6Ik2",
+          "_BFbq0Ld5ne_er7lcaf0v",
+          "USph2c3saq1FymagQIdt-",
+          "6q78vAZCiXKmkKJ7pa6Qo",
+          "-aEEuV2j9zkTVxW5yxlz-",
+          "R2BCF3hvJCRc01a3TRT_V",
+          "w4nnuxd05VJPeCdZykOsv",
+          "kJVYmOd4MND6A9bHOyLrh",
+          "AByhC_nmJKzxBLIhgax1V",
+          "eUccm-n3V-IjJadTcm8HI",
+          "AXsM9f4DlvAw_IMRHB0Qx",
+          "1rjc14UxrbuEKybLj-VhH",
+          "kS8gXI4HuUSQ8lBhAsAb-",
+          "B79SjutuLt-BXuCV4dXbn",
+          "mR_uueU8-amdu10-w3eKc",
+          "oq7444tpLIQyDCkGKX2Wp",
+          "pWX8T2lMzfE-G6kIlCqIV"
+        ],
+        "ui": {
+          "x": 60,
+          "y": 60
+        }
+      },
+      "NAfl1fSYLZut7rcWxeptf": {
+        "id": "NAfl1fSYLZut7rcWxeptf",
+        "name": "SeguimientoVacante",
+        "columnIds": [
+          "Qo7ElO4SdJs2-6d-ut3Ph",
+          "uJEIjRxwOxpQRx7tDJX3U",
+          "99wirWAHS0Wh3GeZ0vcQd",
+          "6E2EUg0k1LVywtNTIyTJP",
+          "iPaK_EUugcQ9bcuqS_VJ2"
+        ],
+        "ui": {
+          "x": 1203.7034,
+          "y": 249.6301
+        }
+      },
+      "XA4ZQy2kywB9gXaqNizfp": {
+        "id": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "DomicilioEmpresa",
+        "columnIds": [
+          "rYgpsxYFh-mwoLg4SajxG",
+          "tFX7Vvdt5uZGwciQVhUED",
+          "NakN-8FooNrmpemF-3FCQ",
+          "KGx-brkZTWVwwuWDjFGWV",
+          "B3aApT-HYng5F_q4hm5an",
+          "_2VdG_QAKKDy7KHaLcJXg",
+          "sYlknIfjO12FHEVPpr9FB",
+          "ESS6AjjTHxt4iR-B56GPG",
+          "qGnL_3sk7Tr_nMtRIzd9m",
+          "Sd02MfQD56TegB09XbQlv"
+        ],
+        "ui": {
+          "x": 614.8147,
+          "y": 666.1725
+        }
+      },
+      "qL3FUG1KNkluADKJoB1gq": {
+        "id": "qL3FUG1KNkluADKJoB1gq",
+        "name": "Vacante",
+        "columnIds": [
+          "oOC7LcEAzljvBtbdHZauZ",
+          "GyDBR5AEBjVyoKQiPISYX",
+          "GHsAhzSaWOlVqbAkEd6K5",
+          "y5fTSVZEjsg24BmIFVz3g",
+          "T5g_o8fR2_Iv1LliVibLA",
+          "7epAnXqvmcxjE-RoIrk_O",
+          "zQCHdsk-YMFFHxow3eIAj",
+          "5cbfRXZiKxwToyn41XOra",
+          "qiH2aVVDw-oHibU3bO9pb",
+          "9dha-N8-43fN_Ie_I6T7H",
+          "htbSmr_3KBnNMpcp_EJQR",
+          "b4h7DKXwQatiX7ovN7-y3",
+          "fpUmlyenx7ZHOoZTTuxjj",
+          "j2yg188vU2DQ2QO6luK7T",
+          "PfqoYmM-W6mOobbdBneX3",
+          "H_HeceYbaJYGVxbgaPeim",
+          "kpAaPGFyWMjeuGpLwHLzI",
+          "MU73hR9-lhLS2ZARQHuaI",
+          "A3W8B5l3_xhIbqX0nMd5k",
+          "WAK_jfpAcdHycbSlxmR13",
+          "66oz8XqA3G9z1-WmZNX2A",
+          "ARxa9G0c0FuOqJRV4MRxF",
+          "-RcsYT9uyNgKmIV19RiBu"
+        ],
+        "ui": {
+          "x": 640.4937,
+          "y": 51.3582
         }
       }
     },
     "tableColumnEntities": {
-      "03h1ugd3gbp4tw86cyh8lial2": {
-        "id": "03h1ugd3gbp4tw86cyh8lial2",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
+      "3hbwdJ8OLITRw-0KuggMB": {
+        "id": "3hbwdJ8OLITRw-0KuggMB",
+        "tableId": "1dD3i-Z3R7p_QZjbor8-1",
+        "name": "tipo",
+        "dataType": "TipoMedioContacto",
+        "options": 8
+      },
+      "6xmSdlyiBclhkNA54U8HD": {
+        "id": "6xmSdlyiBclhkNA54U8HD",
+        "tableId": "1dD3i-Z3R7p_QZjbor8-1",
+        "name": "horario",
+        "dataType": "text?",
+        "options": 0
+      },
+      "B1EKy7hnJAQoFztRdoR6e": {
+        "id": "B1EKy7hnJAQoFztRdoR6e",
+        "tableId": "1dD3i-Z3R7p_QZjbor8-1",
         "name": "id",
-        "dataType": "TEXT",
-        "options": 10
+        "dataType": "text",
+        "default": "cuid(1)",
+        "options": 14
       },
-      "03h1ugd3gh771kmuxy0f7zzxv": {
-        "id": "03h1ugd3gh771kmuxy0f7zzxv",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "folio",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gh771kmuxy0vf7yrg": {
-        "id": "03h1ugd3gh771kmuxy0vf7yrg",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "rfc",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gh771kmuxy498epbc": {
-        "id": "03h1ugd3gh771kmuxy498epbc",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "curp",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gh771kmuxy64e2mjk": {
-        "id": "03h1ugd3gh771kmuxy64e2mjk",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "tipoEmpleador",
-        "dataType": "\"TipoEmpleador\"",
+      "enYM_u8qv6WylT-8m7TWr": {
+        "id": "enYM_u8qv6WylT-8m7TWr",
+        "tableId": "1dD3i-Z3R7p_QZjbor8-1",
+        "name": "vacanteId",
+        "dataType": "text",
         "options": 8
       },
-      "03h1ugd3gh771kmuxy7ftza82": {
-        "id": "03h1ugd3gh771kmuxy7ftza82",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "tipoPersona",
-        "dataType": "\"TipoPersona\"",
-        "options": 0
-      },
-      "03h1ugd3gh771kmuxyac7336c": {
-        "id": "03h1ugd3gh771kmuxyac7336c",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "razonSocial",
-        "dataType": "TEXT",
-        "options": 8
-      },
-      "03h1ugd3gh771kmuxyb055ce7": {
-        "id": "03h1ugd3gh771kmuxyb055ce7",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "nombreComercial",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gh771kmuxydq1gl18": {
-        "id": "03h1ugd3gh771kmuxydq1gl18",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "tipoSociedad",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gh771kmuxyfuozd9i": {
-        "id": "03h1ugd3gh771kmuxyfuozd9i",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "calle",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gmlhruuv878yfm39r": {
-        "id": "03h1ugd3gmlhruuv878yfm39r",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "numeroExterior",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gmlhruuv87bzegix6": {
-        "id": "03h1ugd3gmlhruuv87bzegix6",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "numeroInterior",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gmlhruuv87cxfplcs": {
-        "id": "03h1ugd3gmlhruuv87cxfplcs",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "colonia",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gmlhruuv87f3r3l6f": {
-        "id": "03h1ugd3gmlhruuv87f3r3l6f",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "municipio",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gmlhruuv87h81psi3": {
-        "id": "03h1ugd3gmlhruuv87h81psi3",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "localidad",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gmlhruuv87j96v0li": {
-        "id": "03h1ugd3gmlhruuv87j96v0li",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "entidad",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gmlhruuv87ldfv8m4": {
-        "id": "03h1ugd3gmlhruuv87ldfv8m4",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "codigoPostal",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gmlhruuv87n01vqhi": {
-        "id": "03h1ugd3gmlhruuv87n01vqhi",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "entreCalles",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gmlhruuv87pr7056j": {
-        "id": "03h1ugd3gmlhruuv87pr7056j",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "empleadosMujeres",
-        "dataType": "INTEGER",
-        "options": 0
-      },
-      "03h1ugd3gmlhruuv87rq4y6rt": {
-        "id": "03h1ugd3gmlhruuv87rq4y6rt",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "empleadosHombres",
-        "dataType": "INTEGER",
-        "options": 0
-      },
-      "03h1ugd3gmlhruuv87toeaiqg": {
-        "id": "03h1ugd3gmlhruuv87toeaiqg",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "ramaActividad",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gmlhruuv87v9q4bik": {
-        "id": "03h1ugd3gmlhruuv87v9q4bik",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "descripcion",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gmlhruuv87w8dgm7e": {
-        "id": "03h1ugd3gmlhruuv87w8dgm7e",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "correoGeneral",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gmlhruuv87ykjwtyf": {
-        "id": "03h1ugd3gmlhruuv87ykjwtyf",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "paginaWeb",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gmlhruuv880katp3k": {
-        "id": "03h1ugd3gmlhruuv880katp3k",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "createdAt",
-        "dataType": "TIMESTAMP(3)",
-        "default": "CURRENT_TIMESTAMP",
-        "options": 8
-      },
-      "03h1ugd3gmlhruuv882oppnwt": {
-        "id": "03h1ugd3gmlhruuv882oppnwt",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "name": "updatedAt",
-        "dataType": "TIMESTAMP(3)",
-        "options": 8
-      },
-      "03h1ugd3gmlhruuv886iufbh7": {
-        "id": "03h1ugd3gmlhruuv886iufbh7",
-        "tableId": "03h1ugd3gmlhruuv884e9ej9h",
-        "name": "id",
-        "dataType": "TEXT",
-        "options": 10
-      },
-      "03h1ugd3gmlhruuv888gube74": {
-        "id": "03h1ugd3gmlhruuv888gube74",
-        "tableId": "03h1ugd3gmlhruuv884e9ej9h",
-        "name": "empresaId",
-        "dataType": "TEXT",
-        "options": 8
-      },
-      "03h1ugd3gs7wx5wx9sb3dho3f": {
-        "id": "03h1ugd3gs7wx5wx9sb3dho3f",
-        "tableId": "03h1ugd3gmlhruuv884e9ej9h",
-        "name": "nombre",
-        "dataType": "TEXT",
-        "options": 8
-      },
-      "03h1ugd3gs7wx5wx9sd2j09lg": {
-        "id": "03h1ugd3gs7wx5wx9sd2j09lg",
-        "tableId": "03h1ugd3gmlhruuv884e9ej9h",
-        "name": "cargo",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gs7wx5wx9sg01g915": {
-        "id": "03h1ugd3gs7wx5wx9sg01g915",
-        "tableId": "03h1ugd3gmlhruuv884e9ej9h",
+      "0JBb9gA68BasICkg9GbKY": {
+        "id": "0JBb9gA68BasICkg9GbKY",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
         "name": "telefonoFijo",
-        "dataType": "TEXT",
+        "dataType": "text?",
         "options": 0
       },
-      "03h1ugd3gs7wx5wx9sicc8qbu": {
-        "id": "03h1ugd3gs7wx5wx9sicc8qbu",
-        "tableId": "03h1ugd3gmlhruuv884e9ej9h",
-        "name": "extension",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gs7wx5wx9sjm9kmoz": {
-        "id": "03h1ugd3gs7wx5wx9sjm9kmoz",
-        "tableId": "03h1ugd3gmlhruuv884e9ej9h",
-        "name": "celular",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gs7wx5wx9slp3xhob": {
-        "id": "03h1ugd3gs7wx5wx9slp3xhob",
-        "tableId": "03h1ugd3gmlhruuv884e9ej9h",
-        "name": "correo",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gs7wx5wx9sneia1h9": {
-        "id": "03h1ugd3gs7wx5wx9sneia1h9",
-        "tableId": "03h1ugd3gmlhruuv884e9ej9h",
-        "name": "principal",
-        "dataType": "BOOLEAN",
-        "default": "false",
+      "4th-m9hlt2mwO3XzrXfBE": {
+        "id": "4th-m9hlt2mwO3XzrXfBE",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
+        "name": "cargo",
+        "dataType": "text",
         "options": 8
       },
-      "03h1ugd3gs7wx5wx9spkil1f6": {
-        "id": "03h1ugd3gs7wx5wx9spkil1f6",
-        "tableId": "03h1ugd3gmlhruuv884e9ej9h",
-        "name": "createdAt",
-        "dataType": "TIMESTAMP(3)",
-        "default": "CURRENT_TIMESTAMP",
+      "68Fvj1JPesxNcDSbvY2zK": {
+        "id": "68Fvj1JPesxNcDSbvY2zK",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
+        "name": "nombres",
+        "dataType": "text",
         "options": 8
       },
-      "03h1ugd3gs7wx5wx9srby3dp8": {
-        "id": "03h1ugd3gs7wx5wx9srby3dp8",
-        "tableId": "03h1ugd3gmlhruuv884e9ej9h",
-        "name": "updatedAt",
-        "dataType": "TIMESTAMP(3)",
+      "85sUWKlfNAZHkz4MVJs7G": {
+        "id": "85sUWKlfNAZHkz4MVJs7G",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
+        "name": "apellidos",
+        "dataType": "text",
         "options": 8
       },
-      "03h1ugd3gs7wx5wx9svcl2wu3": {
-        "id": "03h1ugd3gs7wx5wx9svcl2wu3",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
+      "A57ICu-z8QCId0DA6MhPu": {
+        "id": "A57ICu-z8QCId0DA6MhPu",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
         "name": "id",
-        "dataType": "TEXT",
-        "options": 10
+        "dataType": "text",
+        "default": "cuid(1)",
+        "options": 14
       },
-      "03h1ugd3gs7wx5wx9sxfaev0i": {
-        "id": "03h1ugd3gs7wx5wx9sxfaev0i",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "idSilap",
-        "dataType": "TEXT",
+      "IxBGkBL1hI7x6fvLq0LN2": {
+        "id": "IxBGkBL1hI7x6fvLq0LN2",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
+        "name": "telsne",
+        "dataType": "text?",
         "options": 0
       },
-      "03h1ugd3gs7wx5wx9szjzn669": {
-        "id": "03h1ugd3gs7wx5wx9szjzn669",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
+      "VU1UYZhEKAfbDyPxbmRaN": {
+        "id": "VU1UYZhEKAfbDyPxbmRaN",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
+        "name": "registrar",
+        "dataType": "boolean",
+        "default": "true",
+        "options": 8
+      },
+      "VXfVV1iM8ThOn3T42t4kD": {
+        "id": "VXfVV1iM8ThOn3T42t4kD",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
+        "name": "correo",
+        "dataType": "text?",
+        "options": 0
+      },
+      "l07jpgNdGcWgG6qU9h4Vp": {
+        "id": "l07jpgNdGcWgG6qU9h4Vp",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
+        "name": "extension",
+        "dataType": "text?",
+        "options": 0
+      },
+      "p0UkaXA4mxohBSZ2SeNPW": {
+        "id": "p0UkaXA4mxohBSZ2SeNPW",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
+        "name": "updatedAt",
+        "dataType": "timestamp",
+        "options": 8
+      },
+      "r4rrYFIrf9p73azeYUeAO": {
+        "id": "r4rrYFIrf9p73azeYUeAO",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
+        "name": "createdAt",
+        "dataType": "timestamp",
+        "default": "now()",
+        "options": 8
+      },
+      "ujZe_-zp1HUtXUwOneDXk": {
+        "id": "ujZe_-zp1HUtXUwOneDXk",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
+        "name": "celular",
+        "dataType": "text?",
+        "options": 0
+      },
+      "-aEEuV2j9zkTVxW5yxlz-": {
+        "id": "-aEEuV2j9zkTVxW5yxlz-",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "tipoPersona",
+        "dataType": "TipoPersona?",
+        "options": 0
+      },
+      "0FnAW4TktF2R6qKZB6Ik2": {
+        "id": "0FnAW4TktF2R6qKZB6Ik2",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "folio",
+        "dataType": "text?",
+        "options": 4
+      },
+      "1rjc14UxrbuEKybLj-VhH": {
+        "id": "1rjc14UxrbuEKybLj-VhH",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "correoGeneral",
+        "dataType": "text",
+        "options": 8
+      },
+      "6q78vAZCiXKmkKJ7pa6Qo": {
+        "id": "6q78vAZCiXKmkKJ7pa6Qo",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "tipoEmpleador",
+        "dataType": "TipoEmpleador",
+        "options": 8
+      },
+      "AByhC_nmJKzxBLIhgax1V": {
+        "id": "AByhC_nmJKzxBLIhgax1V",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "cantidadEempleados",
+        "dataType": "integer",
+        "options": 8
+      },
+      "AXsM9f4DlvAw_IMRHB0Qx": {
+        "id": "AXsM9f4DlvAw_IMRHB0Qx",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "descripcion",
+        "dataType": "text?",
+        "options": 0
+      },
+      "B79SjutuLt-BXuCV4dXbn": {
+        "id": "B79SjutuLt-BXuCV4dXbn",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "contactoId",
+        "dataType": "text",
+        "options": 12
+      },
+      "R2BCF3hvJCRc01a3TRT_V": {
+        "id": "R2BCF3hvJCRc01a3TRT_V",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "razonSocial",
+        "dataType": "text?",
+        "options": 0
+      },
+      "USph2c3saq1FymagQIdt-": {
+        "id": "USph2c3saq1FymagQIdt-",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "curp",
+        "dataType": "text?",
+        "options": 0
+      },
+      "WoJX3rjRaTV8WTp2271aA": {
+        "id": "WoJX3rjRaTV8WTp2271aA",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "id",
+        "dataType": "text",
+        "default": "cuid(1)",
+        "options": 14
+      },
+      "_BFbq0Ld5ne_er7lcaf0v": {
+        "id": "_BFbq0Ld5ne_er7lcaf0v",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "rfc",
+        "dataType": "text",
+        "options": 8
+      },
+      "eUccm-n3V-IjJadTcm8HI": {
+        "id": "eUccm-n3V-IjJadTcm8HI",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "ramaActividad",
+        "dataType": "text",
+        "options": 8
+      },
+      "kJVYmOd4MND6A9bHOyLrh": {
+        "id": "kJVYmOd4MND6A9bHOyLrh",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "tipoSociedad",
+        "dataType": "text?",
+        "options": 0
+      },
+      "kS8gXI4HuUSQ8lBhAsAb-": {
+        "id": "kS8gXI4HuUSQ8lBhAsAb-",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "paginaWeb",
+        "dataType": "text?",
+        "options": 0
+      },
+      "mR_uueU8-amdu10-w3eKc": {
+        "id": "mR_uueU8-amdu10-w3eKc",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "domicilioId",
+        "dataType": "text",
+        "options": 12
+      },
+      "oq7444tpLIQyDCkGKX2Wp": {
+        "id": "oq7444tpLIQyDCkGKX2Wp",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "createdAt",
+        "dataType": "timestamp",
+        "default": "now()",
+        "options": 8
+      },
+      "pWX8T2lMzfE-G6kIlCqIV": {
+        "id": "pWX8T2lMzfE-G6kIlCqIV",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "updatedAt",
+        "dataType": "timestamp",
+        "options": 8
+      },
+      "w4nnuxd05VJPeCdZykOsv": {
+        "id": "w4nnuxd05VJPeCdZykOsv",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "nombreComercial",
+        "dataType": "text?",
+        "options": 0
+      },
+      "6E2EUg0k1LVywtNTIyTJP": {
+        "id": "6E2EUg0k1LVywtNTIyTJP",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "name": "resultado",
+        "dataType": "ResultadoSeguimiento",
+        "options": 8
+      },
+      "99wirWAHS0Wh3GeZ0vcQd": {
+        "id": "99wirWAHS0Wh3GeZ0vcQd",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "name": "fecha",
+        "dataType": "timestamp",
+        "default": "now()",
+        "options": 8
+      },
+      "Qo7ElO4SdJs2-6d-ut3Ph": {
+        "id": "Qo7ElO4SdJs2-6d-ut3Ph",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "name": "id",
+        "dataType": "text",
+        "default": "cuid(1)",
+        "options": 14
+      },
+      "iPaK_EUugcQ9bcuqS_VJ2": {
+        "id": "iPaK_EUugcQ9bcuqS_VJ2",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "name": "comentario",
+        "dataType": "text?",
+        "options": 0
+      },
+      "uJEIjRxwOxpQRx7tDJX3U": {
+        "id": "uJEIjRxwOxpQRx7tDJX3U",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "name": "vacanteId",
+        "dataType": "text",
+        "options": 8
+      },
+      "B3aApT-HYng5F_q4hm5an": {
+        "id": "B3aApT-HYng5F_q4hm5an",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "colonia",
+        "dataType": "text?",
+        "options": 0
+      },
+      "ESS6AjjTHxt4iR-B56GPG": {
+        "id": "ESS6AjjTHxt4iR-B56GPG",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "entidad",
+        "dataType": "text?",
+        "options": 0
+      },
+      "KGx-brkZTWVwwuWDjFGWV": {
+        "id": "KGx-brkZTWVwwuWDjFGWV",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "numeroInterior",
+        "dataType": "text?",
+        "options": 0
+      },
+      "NakN-8FooNrmpemF-3FCQ": {
+        "id": "NakN-8FooNrmpemF-3FCQ",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "numeroExterior",
+        "dataType": "text?",
+        "options": 0
+      },
+      "Sd02MfQD56TegB09XbQlv": {
+        "id": "Sd02MfQD56TegB09XbQlv",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "entreCalles",
+        "dataType": "text?",
+        "options": 0
+      },
+      "_2VdG_QAKKDy7KHaLcJXg": {
+        "id": "_2VdG_QAKKDy7KHaLcJXg",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "municipio",
+        "dataType": "text?",
+        "options": 0
+      },
+      "qGnL_3sk7Tr_nMtRIzd9m": {
+        "id": "qGnL_3sk7Tr_nMtRIzd9m",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "codigoPostal",
+        "dataType": "text?",
+        "options": 0
+      },
+      "rYgpsxYFh-mwoLg4SajxG": {
+        "id": "rYgpsxYFh-mwoLg4SajxG",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "id",
+        "dataType": "text",
+        "default": "cuid(1)",
+        "options": 14
+      },
+      "sYlknIfjO12FHEVPpr9FB": {
+        "id": "sYlknIfjO12FHEVPpr9FB",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "localidad",
+        "dataType": "text?",
+        "options": 0
+      },
+      "tFX7Vvdt5uZGwciQVhUED": {
+        "id": "tFX7Vvdt5uZGwciQVhUED",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "calle",
+        "dataType": "text?",
+        "options": 0
+      },
+      "-RcsYT9uyNgKmIV19RiBu": {
+        "id": "-RcsYT9uyNgKmIV19RiBu",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "updatedAt",
+        "dataType": "timestamp",
+        "options": 8
+      },
+      "5cbfRXZiKxwToyn41XOra": {
+        "id": "5cbfRXZiKxwToyn41XOra",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "escolaridad",
+        "dataType": "text?",
+        "options": 0
+      },
+      "66oz8XqA3G9z1-WmZNX2A": {
+        "id": "66oz8XqA3G9z1-WmZNX2A",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "fechaReinicio",
+        "dataType": "timestamp",
+        "options": 8
+      },
+      "7epAnXqvmcxjE-RoIrk_O": {
+        "id": "7epAnXqvmcxjE-RoIrk_O",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "edadMinima",
+        "dataType": "integer?",
+        "options": 0
+      },
+      "9dha-N8-43fN_Ie_I6T7H": {
+        "id": "9dha-N8-43fN_Ie_I6T7H",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "sueldoMensual",
+        "dataType": "decimal(10, 2)",
+        "options": 8
+      },
+      "A3W8B5l3_xhIbqX0nMd5k": {
+        "id": "A3W8B5l3_xhIbqX0nMd5k",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "tiempoReclutamiento",
+        "dataType": "text",
+        "options": 8
+      },
+      "ARxa9G0c0FuOqJRV4MRxF": {
+        "id": "ARxa9G0c0FuOqJRV4MRxF",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "createdAt",
+        "dataType": "timestamp",
+        "default": "now()",
+        "options": 8
+      },
+      "GHsAhzSaWOlVqbAkEd6K5": {
+        "id": "GHsAhzSaWOlVqbAkEd6K5",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
         "name": "empresaId",
-        "dataType": "TEXT",
+        "dataType": "text",
         "options": 8
       },
-      "03h1ugd3gs7wx5wx9t1sp57o9": {
-        "id": "03h1ugd3gs7wx5wx9t1sp57o9",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "puesto",
-        "dataType": "TEXT",
+      "GyDBR5AEBjVyoKQiPISYX": {
+        "id": "GyDBR5AEBjVyoKQiPISYX",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "idSilap",
+        "dataType": "text?",
+        "options": 4
+      },
+      "H_HeceYbaJYGVxbgaPeim": {
+        "id": "H_HeceYbaJYGVxbgaPeim",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "descripcionPuesto",
+        "dataType": "text",
         "options": 8
       },
-      "03h1ugd3gxjmary05wnjpjux1": {
-        "id": "03h1ugd3gxjmary05wnjpjux1",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
+      "MU73hR9-lhLS2ZARQHuaI": {
+        "id": "MU73hR9-lhLS2ZARQHuaI",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "prestaciones",
+        "dataType": "text",
+        "options": 8
+      },
+      "PfqoYmM-W6mOobbdBneX3": {
+        "id": "PfqoYmM-W6mOobbdBneX3",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "tipoDiscapacidad",
+        "dataType": "TipoDiscapacidad?",
+        "options": 0
+      },
+      "T5g_o8fR2_Iv1LliVibLA": {
+        "id": "T5g_o8fR2_Iv1LliVibLA",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
         "name": "plazas",
-        "dataType": "INTEGER",
+        "dataType": "integer",
         "default": "1",
         "options": 8
       },
-      "03h1ugd3gxjmary05woot6ztm": {
-        "id": "03h1ugd3gxjmary05woot6ztm",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "edadMinima",
-        "dataType": "INTEGER",
-        "options": 0
-      },
-      "03h1ugd3gxjmary05wrmpij8f": {
-        "id": "03h1ugd3gxjmary05wrmpij8f",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "edadMaxima",
-        "dataType": "INTEGER",
-        "options": 0
-      },
-      "03h1ugd3gxjmary05wsukmusu": {
-        "id": "03h1ugd3gxjmary05wsukmusu",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "escolaridad",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gxjmary05wvxzqhb0": {
-        "id": "03h1ugd3gxjmary05wvxzqhb0",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "sueldoMensual",
-        "dataType": "DECIMAL(10,2)",
-        "options": 0
-      },
-      "03h1ugd3gxjmary05wxftqezz": {
-        "id": "03h1ugd3gxjmary05wxftqezz",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "diasTrabajo",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gxjmary05wzstq3z7": {
-        "id": "03h1ugd3gxjmary05wzstq3z7",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "horarioTrabajo",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gxjmary05x1850nsy": {
-        "id": "03h1ugd3gxjmary05x1850nsy",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "experienciaAnios",
-        "dataType": "INTEGER",
-        "options": 0
-      },
-      "03h1ugd3gxjmary05x3b5grk0": {
-        "id": "03h1ugd3gxjmary05x3b5grk0",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "aceptaDiscapacidad",
-        "dataType": "BOOLEAN",
+      "WAK_jfpAcdHycbSlxmR13": {
+        "id": "WAK_jfpAcdHycbSlxmR13",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "cubierta",
+        "dataType": "boolean",
         "default": "false",
         "options": 8
       },
-      "03h1ugd3gxjmary05x5bubwop": {
-        "id": "03h1ugd3gxjmary05x5bubwop",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "tipoDiscapacidad",
-        "dataType": "TEXT",
+      "b4h7DKXwQatiX7ovN7-y3": {
+        "id": "b4h7DKXwQatiX7ovN7-y3",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "horarioTrabajo",
+        "dataType": "text?",
         "options": 0
       },
-      "03h1ugd3gxjmary05x7o5eao5": {
-        "id": "03h1ugd3gxjmary05x7o5eao5",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "descripcionPuesto",
-        "dataType": "TEXT",
+      "fpUmlyenx7ZHOoZTTuxjj": {
+        "id": "fpUmlyenx7ZHOoZTTuxjj",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "experienciaAnios",
+        "dataType": "integer",
+        "options": 8
+      },
+      "htbSmr_3KBnNMpcp_EJQR": {
+        "id": "htbSmr_3KBnNMpcp_EJQR",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "diasTrabajo",
+        "dataType": "integer?",
         "options": 0
       },
-      "03h1ugd3gxjmary05x8ovg471": {
-        "id": "03h1ugd3gxjmary05x8ovg471",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
+      "j2yg188vU2DQ2QO6luK7T": {
+        "id": "j2yg188vU2DQ2QO6luK7T",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "aceptaDiscapacidad",
+        "dataType": "boolean",
+        "default": "false",
+        "options": 8
+      },
+      "kpAaPGFyWMjeuGpLwHLzI": {
+        "id": "kpAaPGFyWMjeuGpLwHLzI",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
         "name": "conocimientos",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gxjmary05xbw5t372": {
-        "id": "03h1ugd3gxjmary05xbw5t372",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "prestaciones",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gxjmary05xc5f4g77": {
-        "id": "03h1ugd3gxjmary05xc5f4g77",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "tiempoReclutamiento",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3gxjmary05xekceyj4": {
-        "id": "03h1ugd3gxjmary05xekceyj4",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "estado",
-        "dataType": "\"EstadoVacante\"",
-        "default": "'VIGENTE'",
+        "dataType": "text",
         "options": 8
       },
-      "03h1ugd3h32z4r74pzsla175e": {
-        "id": "03h1ugd3h32z4r74pzsla175e",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "fechaRegistro",
-        "dataType": "TIMESTAMP(3)",
-        "options": 8
-      },
-      "03h1ugd3h32z4r74pztxrijsu": {
-        "id": "03h1ugd3h32z4r74pztxrijsu",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "observaciones",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3h32z4r74pzvjiip5h": {
-        "id": "03h1ugd3h32z4r74pzvjiip5h",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "createdAt",
-        "dataType": "TIMESTAMP(3)",
-        "default": "CURRENT_TIMESTAMP",
-        "options": 8
-      },
-      "03h1ugd3h32z4r74pzxikdkz4": {
-        "id": "03h1ugd3h32z4r74pzxikdkz4",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "name": "updatedAt",
-        "dataType": "TIMESTAMP(3)",
-        "options": 8
-      },
-      "03h1ugd3h32z4r74q020es1sk": {
-        "id": "03h1ugd3h32z4r74q020es1sk",
-        "tableId": "03h1ugd3h32z4r74pzzvrsauo",
+      "oOC7LcEAzljvBtbdHZauZ": {
+        "id": "oOC7LcEAzljvBtbdHZauZ",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
         "name": "id",
-        "dataType": "TEXT",
-        "options": 10
+        "dataType": "text",
+        "default": "cuid(1)",
+        "options": 14
       },
-      "03h1ugd3h32z4r74q04fdtn78": {
-        "id": "03h1ugd3h32z4r74q04fdtn78",
-        "tableId": "03h1ugd3h32z4r74pzzvrsauo",
-        "name": "vacanteId",
-        "dataType": "TEXT",
+      "qiH2aVVDw-oHibU3bO9pb": {
+        "id": "qiH2aVVDw-oHibU3bO9pb",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "sexo",
+        "dataType": "Sexo",
         "options": 8
       },
-      "03h1ugd3h32z4r74q06khio2u": {
-        "id": "03h1ugd3h32z4r74q06khio2u",
-        "tableId": "03h1ugd3h32z4r74pzzvrsauo",
-        "name": "tipo",
-        "dataType": "\"TipoMedioContacto\"",
+      "y5fTSVZEjsg24BmIFVz3g": {
+        "id": "y5fTSVZEjsg24BmIFVz3g",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "puesto",
+        "dataType": "text",
         "options": 8
       },
-      "03h1ugd3h32z4r74q08euoobu": {
-        "id": "03h1ugd3h32z4r74q08euoobu",
-        "tableId": "03h1ugd3h32z4r74pzzvrsauo",
-        "name": "valor",
-        "dataType": "TEXT",
-        "options": 8
-      },
-      "03h1ugd3h32z4r74q0944khhc": {
-        "id": "03h1ugd3h32z4r74q0944khhc",
-        "tableId": "03h1ugd3h32z4r74pzzvrsauo",
-        "name": "horario",
-        "dataType": "TEXT",
+      "zQCHdsk-YMFFHxow3eIAj": {
+        "id": "zQCHdsk-YMFFHxow3eIAj",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "edadMaxima",
+        "dataType": "integer?",
         "options": 0
-      },
-      "03h1ugd3hjffdn8382sy69lb0": {
-        "id": "03h1ugd3hjffdn8382sy69lb0",
-        "tableId": "03h1ugd3h32z4r74q0be77290",
-        "name": "id",
-        "dataType": "TEXT",
-        "options": 10
-      },
-      "03h1ugd3hjffdn8382vdawdvi": {
-        "id": "03h1ugd3hjffdn8382vdawdvi",
-        "tableId": "03h1ugd3h32z4r74q0be77290",
-        "name": "vacanteId",
-        "dataType": "TEXT",
-        "options": 8
-      },
-      "03h1ugd3hjffdn8382vphm3sq": {
-        "id": "03h1ugd3hjffdn8382vphm3sq",
-        "tableId": "03h1ugd3h32z4r74q0be77290",
-        "name": "fecha",
-        "dataType": "TIMESTAMP(3)",
-        "default": "CURRENT_TIMESTAMP",
-        "options": 8
-      },
-      "03h1ugd3hjffdn8382y4uqhsv": {
-        "id": "03h1ugd3hjffdn8382y4uqhsv",
-        "tableId": "03h1ugd3h32z4r74q0be77290",
-        "name": "resultado",
-        "dataType": "\"ResultadoSeguimiento\"",
-        "options": 8
-      },
-      "03h1ugd3hjffdn838317gxzr8": {
-        "id": "03h1ugd3hjffdn838317gxzr8",
-        "tableId": "03h1ugd3h32z4r74q0be77290",
-        "name": "comentario",
-        "dataType": "TEXT",
-        "options": 0
-      },
-      "03h1ugd3hjffdn83831jgmezv": {
-        "id": "03h1ugd3hjffdn83831jgmezv",
-        "tableId": "03h1ugd3h32z4r74q0be77290",
-        "name": "createdAt",
-        "dataType": "TIMESTAMP(3)",
-        "default": "CURRENT_TIMESTAMP",
-        "options": 8
       }
     },
     "relationshipEntities": {
-      "03h1ugd3hozlqjaaw3u79839w": {
-        "id": "03h1ugd3hozlqjaaw3u79839w",
-        "relationshipType": 4,
-        "onDelete": 4,
-        "onUpdate": 4,
+      "2I_8hsb4frwHT1M7ByJmH": {
+        "id": "2I_8hsb4frwHT1M7ByJmH",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
         "start": {
-          "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
+          "tableId": "H8v4NtsH1bK5onJVucw9Y",
           "columnIds": [
-            "03h1ugd3gbp4tw86cyh8lial2"
+            "WoJX3rjRaTV8WTp2271aA"
           ]
         },
         "end": {
-          "tableId": "03h1ugd3gmlhruuv884e9ej9h",
+          "tableId": "qL3FUG1KNkluADKJoB1gq",
           "columnIds": [
-            "03h1ugd3gmlhruuv888gube74"
+            "GHsAhzSaWOlVqbAkEd6K5"
           ]
         }
       },
-      "03h1ugd3huf04ubxj2qhwqwrx": {
-        "id": "03h1ugd3huf04ubxj2qhwqwrx",
-        "relationshipType": 4,
-        "onDelete": 32,
-        "onUpdate": 4,
+      "BTQB2m-myTa-mmz6L59An": {
+        "id": "BTQB2m-myTa-mmz6L59An",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
         "start": {
-          "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
+          "tableId": "qL3FUG1KNkluADKJoB1gq",
           "columnIds": [
-            "03h1ugd3gbp4tw86cyh8lial2"
+            "oOC7LcEAzljvBtbdHZauZ"
           ]
         },
         "end": {
-          "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
+          "tableId": "NAfl1fSYLZut7rcWxeptf",
           "columnIds": [
-            "03h1ugd3gs7wx5wx9szjzn669"
+            "uJEIjRxwOxpQRx7tDJX3U"
           ]
         }
       },
-      "03h1ugd3huf04ubxj2rqyhxeo": {
-        "id": "03h1ugd3huf04ubxj2rqyhxeo",
-        "relationshipType": 4,
-        "onDelete": 4,
-        "onUpdate": 4,
+      "Dw5sTdyoL--PxEGfxABcm": {
+        "id": "Dw5sTdyoL--PxEGfxABcm",
+        "relationshipType": 8,
+        "onDelete": 1,
+        "onUpdate": 1,
         "start": {
-          "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
+          "tableId": "G0_9gnlriZMlbke7SZ__X",
           "columnIds": [
-            "03h1ugd3gs7wx5wx9svcl2wu3"
+            "A57ICu-z8QCId0DA6MhPu"
           ]
         },
         "end": {
-          "tableId": "03h1ugd3h32z4r74pzzvrsauo",
+          "tableId": "H8v4NtsH1bK5onJVucw9Y",
           "columnIds": [
-            "03h1ugd3h32z4r74q04fdtn78"
+            "B79SjutuLt-BXuCV4dXbn"
           ]
         }
       },
-      "03h1ugd3huf04ubxj2u9gym7g": {
-        "id": "03h1ugd3huf04ubxj2u9gym7g",
-        "relationshipType": 4,
-        "onDelete": 4,
-        "onUpdate": 4,
+      "NF6nyvuZ2xwusf2rN9x63": {
+        "id": "NF6nyvuZ2xwusf2rN9x63",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
         "start": {
-          "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
+          "tableId": "qL3FUG1KNkluADKJoB1gq",
           "columnIds": [
-            "03h1ugd3gs7wx5wx9svcl2wu3"
+            "oOC7LcEAzljvBtbdHZauZ"
           ]
         },
         "end": {
-          "tableId": "03h1ugd3h32z4r74q0be77290",
+          "tableId": "1dD3i-Z3R7p_QZjbor8-1",
           "columnIds": [
-            "03h1ugd3hjffdn8382vdawdvi"
+            "enYM_u8qv6WylT-8m7TWr"
+          ]
+        }
+      },
+      "qdKURxKIBXhfZ1k1dFSUw": {
+        "id": "qdKURxKIBXhfZ1k1dFSUw",
+        "relationshipType": 8,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "XA4ZQy2kywB9gXaqNizfp",
+          "columnIds": [
+            "rYgpsxYFh-mwoLg4SajxG"
+          ]
+        },
+        "end": {
+          "tableId": "H8v4NtsH1bK5onJVucw9Y",
+          "columnIds": [
+            "mR_uueU8-amdu10-w3eKc"
           ]
         }
       }
     },
     "indexEntities": {
-      "03h1ugd3hzwh2no2839w2k5kr": {
-        "id": "03h1ugd3hzwh2no2839w2k5kr",
-        "name": "Empresa_razonSocial_idx",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
+      "3O-9D6koKNgD2b-AIzZJH": {
+        "id": "3O-9D6koKNgD2b-AIzZJH",
+        "name": "Vacante_cubierta_idx",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
         "indexColumnIds": [
-          "03h1ugd3hzwh2no283cxvjk27"
+          "tTzaGrV8uhfteKOsO3lcp"
         ],
         "unique": false
       },
-      "03h1ugd3hzwh2no283eqe7tcg": {
-        "id": "03h1ugd3hzwh2no283eqe7tcg",
-        "name": "Empresa_rfc_idx",
-        "tableId": "03h1ugd3gbp4tw86cyfbfhknq",
-        "indexColumnIds": [
-          "03h1ugd3hzwh2no283f9y3slr"
-        ],
-        "unique": false
-      },
-      "03h1ugd3hzwh2no283i6v7wj8": {
-        "id": "03h1ugd3hzwh2no283i6v7wj8",
-        "name": "ContactoEmpresa_empresaId_idx",
-        "tableId": "03h1ugd3gmlhruuv884e9ej9h",
-        "indexColumnIds": [
-          "03h1ugd3hzwh2no283jrkzkgx"
-        ],
-        "unique": false
-      },
-      "03h1ugd3hzwh2no283mh7fgbm": {
-        "id": "03h1ugd3hzwh2no283mh7fgbm",
-        "name": "Vacante_idSilap_key",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "indexColumnIds": [
-          "03h1ugd3hzwh2no283o7aokok"
-        ],
-        "unique": true
-      },
-      "03h1ugd3i5f18yow447ewxg4c": {
-        "id": "03h1ugd3i5f18yow447ewxg4c",
-        "name": "Vacante_empresaId_idx",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "indexColumnIds": [
-          "03h1ugd3i5f18yow448gsnmrt"
-        ],
-        "unique": false
-      },
-      "03h1ugd3i5f18yow44a4prchh": {
-        "id": "03h1ugd3i5f18yow44a4prchh",
-        "name": "Vacante_fechaRegistro_idx",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "indexColumnIds": [
-          "03h1ugd3i5f18yow44bsk41rg"
-        ],
-        "unique": false
-      },
-      "03h1ugd3i5f18yow44e5idy89": {
-        "id": "03h1ugd3i5f18yow44e5idy89",
-        "name": "Vacante_estado_idx",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "indexColumnIds": [
-          "03h1ugd3i5f18yow44hiem388"
-        ],
-        "unique": false
-      },
-      "03h1ugd3i5f18yow44id6k0dk": {
-        "id": "03h1ugd3i5f18yow44id6k0dk",
-        "name": "Vacante_puesto_idx",
-        "tableId": "03h1ugd3gs7wx5wx9ssisrb24",
-        "indexColumnIds": [
-          "03h1ugd3i5f18yow44l4cau0g"
-        ],
-        "unique": false
-      },
-      "03h1ugd3i5f18yow44m6la7rg": {
-        "id": "03h1ugd3i5f18yow44m6la7rg",
-        "name": "MedioContactoVacante_vacanteId_idx",
-        "tableId": "03h1ugd3h32z4r74pzzvrsauo",
-        "indexColumnIds": [
-          "03h1ugd3i5f18yow44nvm4csm"
-        ],
-        "unique": false
-      },
-      "03h1ugd3i5f18yow44qqj5g1u": {
-        "id": "03h1ugd3i5f18yow44qqj5g1u",
+      "4L7uhApDGxwSgU6tMOf5X": {
+        "id": "4L7uhApDGxwSgU6tMOf5X",
         "name": "SeguimientoVacante_vacanteId_idx",
-        "tableId": "03h1ugd3h32z4r74q0be77290",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
         "indexColumnIds": [
-          "03h1ugd3i5f18yow44sfzjtqz"
+          "8SwIoTJvgU5PVb0QW03OJ"
         ],
         "unique": false
       },
-      "03h1ugd3i5f18yow44vclyuf2": {
-        "id": "03h1ugd3i5f18yow44vclyuf2",
-        "name": "SeguimientoVacante_fecha_idx",
-        "tableId": "03h1ugd3h32z4r74q0be77290",
+      "4kcjyQ3mGNhaQj9UfKTsJ": {
+        "id": "4kcjyQ3mGNhaQj9UfKTsJ",
+        "name": "Empresa_razonSocial_idx",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
         "indexColumnIds": [
-          "03h1ugd3i5f18yow44xfudiey"
+          "AXc12ZThqA3uN0ZZzZxvL"
+        ],
+        "unique": false
+      },
+      "GvYN4uu3dDE5NdJ7PHs8j": {
+        "id": "GvYN4uu3dDE5NdJ7PHs8j",
+        "name": "Empresa_rfc_idx",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "indexColumnIds": [
+          "fYpq-WB7wGoS6vv1b-88P"
+        ],
+        "unique": false
+      },
+      "Uu5YLl3IhA4VTorVLaMCZ": {
+        "id": "Uu5YLl3IhA4VTorVLaMCZ",
+        "name": "Vacante_fechaReinicio_idx",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "indexColumnIds": [
+          "p7BLD9IAI66bZS6UWr5bE"
+        ],
+        "unique": false
+      },
+      "WmuzvNLk-zf5P_a7wjyR-": {
+        "id": "WmuzvNLk-zf5P_a7wjyR-",
+        "name": "Vacante_puesto_idx",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "indexColumnIds": [
+          "OdaVj7qUHjeQRdW_tZgSx"
+        ],
+        "unique": false
+      },
+      "XpDQL4WvR_3-dbFNkGA0s": {
+        "id": "XpDQL4WvR_3-dbFNkGA0s",
+        "name": "SeguimientoVacante_fecha_idx",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "indexColumnIds": [
+          "E48HM4iArbCPDMQkYghZZ"
+        ],
+        "unique": false
+      },
+      "oZ1BX1rc2j9bEbFHK3-w4": {
+        "id": "oZ1BX1rc2j9bEbFHK3-w4",
+        "name": "Vacante_empresaId_idx",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "indexColumnIds": [
+          "m6S9y1nWslQjrNfxvoZ-_"
+        ],
+        "unique": false
+      },
+      "uVm6S9fuvQ0A1KcMztK_9": {
+        "id": "uVm6S9fuvQ0A1KcMztK_9",
+        "name": "MedioContactoVacante_vacanteId_idx",
+        "tableId": "1dD3i-Z3R7p_QZjbor8-1",
+        "indexColumnIds": [
+          "z9WM3gJruW1cfrC7R5CLZ"
         ],
         "unique": false
       }
     },
     "indexColumnEntities": {
-      "03h1ugd3hzwh2no283cxvjk27": {
-        "id": "03h1ugd3hzwh2no283cxvjk27",
-        "indexId": "03h1ugd3hzwh2no2839w2k5kr",
-        "columnId": "03h1ugd3gh771kmuxyac7336c",
+      "tTzaGrV8uhfteKOsO3lcp": {
+        "id": "tTzaGrV8uhfteKOsO3lcp",
+        "indexId": "3O-9D6koKNgD2b-AIzZJH",
+        "columnId": "WAK_jfpAcdHycbSlxmR13",
         "orderType": 1
       },
-      "03h1ugd3hzwh2no283f9y3slr": {
-        "id": "03h1ugd3hzwh2no283f9y3slr",
-        "indexId": "03h1ugd3hzwh2no283eqe7tcg",
-        "columnId": "03h1ugd3gh771kmuxy0vf7yrg",
+      "8SwIoTJvgU5PVb0QW03OJ": {
+        "id": "8SwIoTJvgU5PVb0QW03OJ",
+        "indexId": "4L7uhApDGxwSgU6tMOf5X",
+        "columnId": "uJEIjRxwOxpQRx7tDJX3U",
         "orderType": 1
       },
-      "03h1ugd3hzwh2no283jrkzkgx": {
-        "id": "03h1ugd3hzwh2no283jrkzkgx",
-        "indexId": "03h1ugd3hzwh2no283i6v7wj8",
-        "columnId": "03h1ugd3gmlhruuv888gube74",
+      "AXc12ZThqA3uN0ZZzZxvL": {
+        "id": "AXc12ZThqA3uN0ZZzZxvL",
+        "indexId": "4kcjyQ3mGNhaQj9UfKTsJ",
+        "columnId": "R2BCF3hvJCRc01a3TRT_V",
         "orderType": 1
       },
-      "03h1ugd3hzwh2no283o7aokok": {
-        "id": "03h1ugd3hzwh2no283o7aokok",
-        "indexId": "03h1ugd3hzwh2no283mh7fgbm",
-        "columnId": "03h1ugd3gs7wx5wx9sxfaev0i",
+      "fYpq-WB7wGoS6vv1b-88P": {
+        "id": "fYpq-WB7wGoS6vv1b-88P",
+        "indexId": "GvYN4uu3dDE5NdJ7PHs8j",
+        "columnId": "_BFbq0Ld5ne_er7lcaf0v",
         "orderType": 1
       },
-      "03h1ugd3i5f18yow448gsnmrt": {
-        "id": "03h1ugd3i5f18yow448gsnmrt",
-        "indexId": "03h1ugd3i5f18yow447ewxg4c",
-        "columnId": "03h1ugd3gs7wx5wx9szjzn669",
+      "p7BLD9IAI66bZS6UWr5bE": {
+        "id": "p7BLD9IAI66bZS6UWr5bE",
+        "indexId": "Uu5YLl3IhA4VTorVLaMCZ",
+        "columnId": "66oz8XqA3G9z1-WmZNX2A",
         "orderType": 1
       },
-      "03h1ugd3i5f18yow44bsk41rg": {
-        "id": "03h1ugd3i5f18yow44bsk41rg",
-        "indexId": "03h1ugd3i5f18yow44a4prchh",
-        "columnId": "03h1ugd3h32z4r74pzsla175e",
+      "OdaVj7qUHjeQRdW_tZgSx": {
+        "id": "OdaVj7qUHjeQRdW_tZgSx",
+        "indexId": "WmuzvNLk-zf5P_a7wjyR-",
+        "columnId": "y5fTSVZEjsg24BmIFVz3g",
         "orderType": 1
       },
-      "03h1ugd3i5f18yow44hiem388": {
-        "id": "03h1ugd3i5f18yow44hiem388",
-        "indexId": "03h1ugd3i5f18yow44e5idy89",
-        "columnId": "03h1ugd3gxjmary05xekceyj4",
+      "E48HM4iArbCPDMQkYghZZ": {
+        "id": "E48HM4iArbCPDMQkYghZZ",
+        "indexId": "XpDQL4WvR_3-dbFNkGA0s",
+        "columnId": "99wirWAHS0Wh3GeZ0vcQd",
         "orderType": 1
       },
-      "03h1ugd3i5f18yow44l4cau0g": {
-        "id": "03h1ugd3i5f18yow44l4cau0g",
-        "indexId": "03h1ugd3i5f18yow44id6k0dk",
-        "columnId": "03h1ugd3gs7wx5wx9t1sp57o9",
+      "m6S9y1nWslQjrNfxvoZ-_": {
+        "id": "m6S9y1nWslQjrNfxvoZ-_",
+        "indexId": "oZ1BX1rc2j9bEbFHK3-w4",
+        "columnId": "GHsAhzSaWOlVqbAkEd6K5",
         "orderType": 1
       },
-      "03h1ugd3i5f18yow44nvm4csm": {
-        "id": "03h1ugd3i5f18yow44nvm4csm",
-        "indexId": "03h1ugd3i5f18yow44m6la7rg",
-        "columnId": "03h1ugd3h32z4r74q04fdtn78",
+      "z9WM3gJruW1cfrC7R5CLZ": {
+        "id": "z9WM3gJruW1cfrC7R5CLZ",
+        "indexId": "uVm6S9fuvQ0A1KcMztK_9",
+        "columnId": "enYM_u8qv6WylT-8m7TWr",
         "orderType": 1
+      }
+    },
+    "memoEntities": {
+      "-BeIhZARLNg55WHcl_9Py": {
+        "id": "-BeIhZARLNg55WHcl_9Py",
+        "value": "TipoDiscapacidad\nAUDITIVA\nINTELECTUAL\nMENTAL\nMOTORA\nVISUAL\nCOMUNICACION\nINTELECTUAL_MENTAL\nOTRAS",
+        "ui": {
+          "x": 1141.4815,
+          "y": 1160.4939,
+          "width": 180,
+          "height": 236
+        }
       },
-      "03h1ugd3i5f18yow44sfzjtqz": {
-        "id": "03h1ugd3i5f18yow44sfzjtqz",
-        "indexId": "03h1ugd3i5f18yow44qqj5g1u",
-        "columnId": "03h1ugd3hjffdn8382vdawdvi",
-        "orderType": 1
+      "7NhEOiCyP-MKizbTSTx2j": {
+        "id": "7NhEOiCyP-MKizbTSTx2j",
+        "value": "TipoPersona\nFISICA\nMORAL",
+        "ui": {
+          "x": 261.4815,
+          "y": 1160.4939,
+          "width": 180,
+          "height": 120
+        }
       },
-      "03h1ugd3i5f18yow44xfudiey": {
-        "id": "03h1ugd3i5f18yow44xfudiey",
-        "indexId": "03h1ugd3i5f18yow44vclyuf2",
-        "columnId": "03h1ugd3hjffdn8382vphm3sq",
-        "orderType": 1
+      "8Yz9_rlnD-JPYxX6LyjGK": {
+        "id": "8Yz9_rlnD-JPYxX6LyjGK",
+        "value": "Sexo\nFEMENINO\nMASCULINO\nINDISTINTO",
+        "ui": {
+          "x": 921.4815,
+          "y": 1160.4939,
+          "width": 180,
+          "height": 126
+        }
+      },
+      "CWG23piNmanRI0VLddj0n": {
+        "id": "CWG23piNmanRI0VLddj0n",
+        "value": "TipoMedioContacto\nCORREO\nDOMICILIO\nTELEFONO\nWHATSAPP",
+        "ui": {
+          "x": 481.4815,
+          "y": 1160.4939,
+          "width": 180,
+          "height": 148
+        }
+      },
+      "n_uLq2zyU4H4mXVOBZWa1": {
+        "id": "n_uLq2zyU4H4mXVOBZWa1",
+        "value": "TipoEmpleador\nPRIVADA\nPUBLICA\nSOCIAL",
+        "ui": {
+          "x": 41.4815,
+          "y": 1160.4939,
+          "width": 180,
+          "height": 126
+        }
+      },
+      "wIHXxeKCU3e5ljZKfi1-m": {
+        "id": "wIHXxeKCU3e5ljZKfi1-m",
+        "value": "ResultadoSeguimiento\nVIGENTE\nCUBIERTA\nPENDIENTE",
+        "ui": {
+          "x": 701.4815,
+          "y": 1160.4939,
+          "width": 180,
+          "height": 126
+        }
       }
     }
   }

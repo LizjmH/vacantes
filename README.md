@@ -24,7 +24,7 @@ Abre http://localhost:3000. La página permite crear notas y listar las últimas
 - `npm start`: ejecuta la compilación de producción.
 - `npm run lint`: verifica ESLint.
 - `npm run typecheck`: genera tipos de rutas y comprueba TypeScript.
-- `npm run db:generate`: genera Prisma Client después de cambiar el esquema.
+- `npm run db:generate`: genera Prisma Client y actualiza `schema.erd` después de cambiar el esquema.
 - `npm run db:migrate -- --name nombre`: crea y aplica una migración local y regenera el cliente.
 - `npm run db:deploy`: aplica migraciones existentes.
 - `npm run db:studio`: abre el explorador de la base de datos.
@@ -32,6 +32,7 @@ Abre http://localhost:3000. La página permite crear notas y listar las últimas
 ## Estructura
 
 - `prisma/schema.prisma`: modelo Note y configuración del generador.
+- `schema.erd`: diagrama entidad-relación generado desde `prisma/schema.prisma`.
 - `prisma/migrations`: historial versionable de cambios de base de datos.
 - `prisma.config.ts`: configuración de Prisma CLI.
 - `src/lib/prisma.ts`: cliente reutilizable para el servidor.
