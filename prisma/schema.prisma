@@ -12,6 +12,23 @@ datasource db {
   provider = "postgresql"
 }
 
+model Usuario {
+  id       String   @id @default(cuid())
+  correo   String   @unique
+  contra   String
+  sesiones Sesion[]
+}
+
+model Sesion {
+  id            String   @id @default(cuid())
+  expiraEl      DateTime
+  token         String
+  creadoEl      DateTime
+  actualizadoEl DateTime @updatedAt
+  usuarioId     String
+  usuario       Usuario  @relation(fields: [usuarioId], references: [id], onDelete: Cascade)
+}
+
 model Empresa {
   id String @id @default(cuid())
 
@@ -31,8 +48,10 @@ model Empresa {
   descripcion        String?
 
   // Información general
-  correoGeneral String
-  paginaWeb     String?
+  correoGeneral     String
+  paginaWeb         String?
+  medioConocimiento MedioConocimiento?
+  registroPortal    RegistroPortal
 
   // Relaciones
   contactoId  String           @unique
@@ -42,8 +61,8 @@ model Empresa {
 
   vacantes Vacante[]
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  creadoEl      DateTime @default(now())
+  actualizadoEl DateTime @updatedAt
 
   @@index([razonSocial])
   @@index([rfc])
@@ -79,8 +98,8 @@ model ContactoEmpresa {
 
   registrar Boolean @default(true)
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  creadoEl      DateTime @default(now())
+  actualizadoEl DateTime @updatedAt
 
   empresa Empresa?
 }
@@ -125,8 +144,8 @@ model Vacante {
   mediosContacto MedioContactoVacante[]
   seguimientos   SeguimientoVacante[]
 
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  creadoEl      DateTime @default(now())
+  actualizadoEl DateTime @updatedAt
 
   @@index([empresaId])
   @@index([fechaReinicio])
@@ -155,6 +174,9 @@ model SeguimientoVacante {
   fecha      DateTime             @default(now())
   resultado  ResultadoSeguimiento
   comentario String?
+  curp       String?
+  nombre     String?
+  puesto     String?
 
   @@index([vacanteId])
   @@index([fecha])
@@ -199,4 +221,17 @@ enum TipoDiscapacidad {
   COMUNICACION
   INTELECTUAL_MENTAL
   OTRAS
+}
+
+enum MedioConocimiento {
+  REDES_SOCIALES
+  CONOCIDOS
+  PRENSA
+  AMISTADES
+  VISITA_DEL_SNE
+}
+
+enum RegistroPortal {
+  SI
+  NO
 }

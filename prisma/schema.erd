@@ -33,14 +33,17 @@
       "G0_9gnlriZMlbke7SZ__X",
       "qL3FUG1KNkluADKJoB1gq",
       "1dD3i-Z3R7p_QZjbor8-1",
-      "NAfl1fSYLZut7rcWxeptf"
+      "NAfl1fSYLZut7rcWxeptf",
+      "1tyTCWKv052NvZbGwNrRF",
+      "R_g6abUuHKYOCUw2RX_pI"
     ],
     "relationshipIds": [
       "Dw5sTdyoL--PxEGfxABcm",
       "qdKURxKIBXhfZ1k1dFSUw",
       "2I_8hsb4frwHT1M7ByJmH",
       "NF6nyvuZ2xwusf2rN9x63",
-      "BTQB2m-myTa-mmz6L59An"
+      "BTQB2m-myTa-mmz6L59An",
+      "e6Bb0WqGp3bLsvp1HTZmR"
     ],
     "indexIds": [
       "4kcjyQ3mGNhaQj9UfKTsJ",
@@ -59,47 +62,13 @@
       "CWG23piNmanRI0VLddj0n",
       "wIHXxeKCU3e5ljZKfi1-m",
       "8Yz9_rlnD-JPYxX6LyjGK",
-      "-BeIhZARLNg55WHcl_9Py"
+      "-BeIhZARLNg55WHcl_9Py",
+      "1-Qac6rvQJdNp5AMyI8jT",
+      "qykJmsd1xxgUpqNrnzjAk"
     ]
   },
   "collections": {
     "tableEntities": {
-      "1dD3i-Z3R7p_QZjbor8-1": {
-        "id": "1dD3i-Z3R7p_QZjbor8-1",
-        "name": "MedioContactoVacante",
-        "columnIds": [
-          "B1EKy7hnJAQoFztRdoR6e",
-          "enYM_u8qv6WylT-8m7TWr",
-          "3hbwdJ8OLITRw-0KuggMB",
-          "6xmSdlyiBclhkNA54U8HD"
-        ],
-        "ui": {
-          "x": 1253.8265,
-          "y": 476.7905
-        }
-      },
-      "G0_9gnlriZMlbke7SZ__X": {
-        "id": "G0_9gnlriZMlbke7SZ__X",
-        "name": "ContactoEmpresa",
-        "columnIds": [
-          "A57ICu-z8QCId0DA6MhPu",
-          "68Fvj1JPesxNcDSbvY2zK",
-          "85sUWKlfNAZHkz4MVJs7G",
-          "4th-m9hlt2mwO3XzrXfBE",
-          "0JBb9gA68BasICkg9GbKY",
-          "l07jpgNdGcWgG6qU9h4Vp",
-          "ujZe_-zp1HUtXUwOneDXk",
-          "VXfVV1iM8ThOn3T42t4kD",
-          "IxBGkBL1hI7x6fvLq0LN2",
-          "VU1UYZhEKAfbDyPxbmRaN",
-          "r4rrYFIrf9p73azeYUeAO",
-          "p0UkaXA4mxohBSZ2SeNPW"
-        ],
-        "ui": {
-          "x": 49.8766,
-          "y": 585.9255
-        }
-      },
       "H8v4NtsH1bK5onJVucw9Y": {
         "id": "H8v4NtsH1bK5onJVucw9Y",
         "name": "Empresa",
@@ -118,29 +87,16 @@
           "AXsM9f4DlvAw_IMRHB0Qx",
           "1rjc14UxrbuEKybLj-VhH",
           "kS8gXI4HuUSQ8lBhAsAb-",
+          "C6nc3X8q7qucnSqn2g6tn",
+          "ahRSOL45xFu6cs4JvhY41",
           "B79SjutuLt-BXuCV4dXbn",
           "mR_uueU8-amdu10-w3eKc",
-          "oq7444tpLIQyDCkGKX2Wp",
-          "pWX8T2lMzfE-G6kIlCqIV"
+          "PvFQ4YHZ1jwJmSru_aWNV",
+          "1vkPBzp1LEdAebuTrFP3b"
         ],
         "ui": {
-          "x": 60,
-          "y": 60
-        }
-      },
-      "NAfl1fSYLZut7rcWxeptf": {
-        "id": "NAfl1fSYLZut7rcWxeptf",
-        "name": "SeguimientoVacante",
-        "columnIds": [
-          "Qo7ElO4SdJs2-6d-ut3Ph",
-          "uJEIjRxwOxpQRx7tDJX3U",
-          "99wirWAHS0Wh3GeZ0vcQd",
-          "6E2EUg0k1LVywtNTIyTJP",
-          "iPaK_EUugcQ9bcuqS_VJ2"
-        ],
-        "ui": {
-          "x": 1203.7034,
-          "y": 249.6301
+          "x": -68,
+          "y": 72
         }
       },
       "XA4ZQy2kywB9gXaqNizfp": {
@@ -161,6 +117,28 @@
         "ui": {
           "x": 614.8147,
           "y": 666.1725
+        }
+      },
+      "G0_9gnlriZMlbke7SZ__X": {
+        "id": "G0_9gnlriZMlbke7SZ__X",
+        "name": "ContactoEmpresa",
+        "columnIds": [
+          "A57ICu-z8QCId0DA6MhPu",
+          "68Fvj1JPesxNcDSbvY2zK",
+          "85sUWKlfNAZHkz4MVJs7G",
+          "4th-m9hlt2mwO3XzrXfBE",
+          "0JBb9gA68BasICkg9GbKY",
+          "l07jpgNdGcWgG6qU9h4Vp",
+          "ujZe_-zp1HUtXUwOneDXk",
+          "VXfVV1iM8ThOn3T42t4kD",
+          "IxBGkBL1hI7x6fvLq0LN2",
+          "VU1UYZhEKAfbDyPxbmRaN",
+          "xM1L6TuhdNwIzq5uTSDa8",
+          "pS6t179NUCEZ_NTUw0LoL"
+        ],
+        "ui": {
+          "x": 49.8766,
+          "y": 585.9255
         }
       },
       "qL3FUG1KNkluADKJoB1gq": {
@@ -188,58 +166,297 @@
           "A3W8B5l3_xhIbqX0nMd5k",
           "WAK_jfpAcdHycbSlxmR13",
           "66oz8XqA3G9z1-WmZNX2A",
-          "ARxa9G0c0FuOqJRV4MRxF",
-          "-RcsYT9uyNgKmIV19RiBu"
+          "MiCgGO8EbdB7VD_PSFU2C",
+          "lXHBxsUx2Dp2hgPCojrmQ"
         ],
         "ui": {
           "x": 640.4937,
           "y": 51.3582
         }
+      },
+      "1dD3i-Z3R7p_QZjbor8-1": {
+        "id": "1dD3i-Z3R7p_QZjbor8-1",
+        "name": "MedioContactoVacante",
+        "columnIds": [
+          "B1EKy7hnJAQoFztRdoR6e",
+          "enYM_u8qv6WylT-8m7TWr",
+          "3hbwdJ8OLITRw-0KuggMB",
+          "6xmSdlyiBclhkNA54U8HD"
+        ],
+        "ui": {
+          "x": 1253.8265,
+          "y": 476.7905
+        }
+      },
+      "NAfl1fSYLZut7rcWxeptf": {
+        "id": "NAfl1fSYLZut7rcWxeptf",
+        "name": "SeguimientoVacante",
+        "columnIds": [
+          "Qo7ElO4SdJs2-6d-ut3Ph",
+          "uJEIjRxwOxpQRx7tDJX3U",
+          "99wirWAHS0Wh3GeZ0vcQd",
+          "6E2EUg0k1LVywtNTIyTJP",
+          "iPaK_EUugcQ9bcuqS_VJ2",
+          "DPLfR4J3Aq1fwxPzyz7IX",
+          "kQJWDB_xWRAFefN-leHn_",
+          "ElPH1E3_ct9Fn4Q2Tpl3H"
+        ],
+        "ui": {
+          "x": 1203.7034,
+          "y": 249.6301
+        }
+      },
+      "1tyTCWKv052NvZbGwNrRF": {
+        "id": "1tyTCWKv052NvZbGwNrRF",
+        "name": "Usuario",
+        "columnIds": [
+          "7GP8R04ZumeKy1773igjl",
+          "xn5BqOymCHB5MTA7VeUbi",
+          "mLdTsU0LJDsJfXW-DMFEv"
+        ],
+        "ui": {
+          "x": 1280,
+          "y": 640
+        }
+      },
+      "R_g6abUuHKYOCUw2RX_pI": {
+        "id": "R_g6abUuHKYOCUw2RX_pI",
+        "name": "Sesion",
+        "columnIds": [
+          "jaAys0kGyByRN1wKcBh1u",
+          "-caA-Qwt7fw9tnR_xMXgm",
+          "AT-Q6_hsg96AhzGlNPmy4",
+          "12oCHdp23ugxllewZ0du9",
+          "Pi6qXTJlp_uTyF4wf3wNT",
+          "oxbXVt9qMRkt2yVsRDErZ"
+        ],
+        "ui": {
+          "x": 1252,
+          "y": 836
+        }
       }
     },
     "tableColumnEntities": {
-      "3hbwdJ8OLITRw-0KuggMB": {
-        "id": "3hbwdJ8OLITRw-0KuggMB",
-        "tableId": "1dD3i-Z3R7p_QZjbor8-1",
-        "name": "tipo",
-        "dataType": "TipoMedioContacto",
-        "options": 8
-      },
-      "6xmSdlyiBclhkNA54U8HD": {
-        "id": "6xmSdlyiBclhkNA54U8HD",
-        "tableId": "1dD3i-Z3R7p_QZjbor8-1",
-        "name": "horario",
-        "dataType": "text?",
-        "options": 0
-      },
-      "B1EKy7hnJAQoFztRdoR6e": {
-        "id": "B1EKy7hnJAQoFztRdoR6e",
-        "tableId": "1dD3i-Z3R7p_QZjbor8-1",
+      "WoJX3rjRaTV8WTp2271aA": {
+        "id": "WoJX3rjRaTV8WTp2271aA",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
         "name": "id",
         "dataType": "text",
         "default": "cuid(1)",
         "options": 14
       },
-      "enYM_u8qv6WylT-8m7TWr": {
-        "id": "enYM_u8qv6WylT-8m7TWr",
-        "tableId": "1dD3i-Z3R7p_QZjbor8-1",
-        "name": "vacanteId",
+      "0FnAW4TktF2R6qKZB6Ik2": {
+        "id": "0FnAW4TktF2R6qKZB6Ik2",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "folio",
+        "dataType": "text?",
+        "options": 4
+      },
+      "_BFbq0Ld5ne_er7lcaf0v": {
+        "id": "_BFbq0Ld5ne_er7lcaf0v",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "rfc",
         "dataType": "text",
         "options": 8
       },
-      "0JBb9gA68BasICkg9GbKY": {
-        "id": "0JBb9gA68BasICkg9GbKY",
-        "tableId": "G0_9gnlriZMlbke7SZ__X",
-        "name": "telefonoFijo",
+      "USph2c3saq1FymagQIdt-": {
+        "id": "USph2c3saq1FymagQIdt-",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "curp",
         "dataType": "text?",
         "options": 0
       },
-      "4th-m9hlt2mwO3XzrXfBE": {
-        "id": "4th-m9hlt2mwO3XzrXfBE",
-        "tableId": "G0_9gnlriZMlbke7SZ__X",
-        "name": "cargo",
+      "6q78vAZCiXKmkKJ7pa6Qo": {
+        "id": "6q78vAZCiXKmkKJ7pa6Qo",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "tipoEmpleador",
+        "dataType": "TipoEmpleador",
+        "options": 8
+      },
+      "-aEEuV2j9zkTVxW5yxlz-": {
+        "id": "-aEEuV2j9zkTVxW5yxlz-",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "tipoPersona",
+        "dataType": "TipoPersona?",
+        "options": 0
+      },
+      "R2BCF3hvJCRc01a3TRT_V": {
+        "id": "R2BCF3hvJCRc01a3TRT_V",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "razonSocial",
+        "dataType": "text?",
+        "options": 0
+      },
+      "w4nnuxd05VJPeCdZykOsv": {
+        "id": "w4nnuxd05VJPeCdZykOsv",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "nombreComercial",
+        "dataType": "text?",
+        "options": 0
+      },
+      "kJVYmOd4MND6A9bHOyLrh": {
+        "id": "kJVYmOd4MND6A9bHOyLrh",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "tipoSociedad",
+        "dataType": "text?",
+        "options": 0
+      },
+      "AByhC_nmJKzxBLIhgax1V": {
+        "id": "AByhC_nmJKzxBLIhgax1V",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "cantidadEempleados",
+        "dataType": "integer",
+        "options": 8
+      },
+      "eUccm-n3V-IjJadTcm8HI": {
+        "id": "eUccm-n3V-IjJadTcm8HI",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "ramaActividad",
         "dataType": "text",
         "options": 8
+      },
+      "AXsM9f4DlvAw_IMRHB0Qx": {
+        "id": "AXsM9f4DlvAw_IMRHB0Qx",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "descripcion",
+        "dataType": "text?",
+        "options": 0
+      },
+      "1rjc14UxrbuEKybLj-VhH": {
+        "id": "1rjc14UxrbuEKybLj-VhH",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "correoGeneral",
+        "dataType": "text",
+        "options": 8
+      },
+      "kS8gXI4HuUSQ8lBhAsAb-": {
+        "id": "kS8gXI4HuUSQ8lBhAsAb-",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "paginaWeb",
+        "dataType": "text?",
+        "options": 0
+      },
+      "C6nc3X8q7qucnSqn2g6tn": {
+        "id": "C6nc3X8q7qucnSqn2g6tn",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "medioConocimiento",
+        "dataType": "MedioConocimiento?",
+        "options": 0
+      },
+      "ahRSOL45xFu6cs4JvhY41": {
+        "id": "ahRSOL45xFu6cs4JvhY41",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "registroPortal",
+        "dataType": "RegistroPortal",
+        "options": 8
+      },
+      "B79SjutuLt-BXuCV4dXbn": {
+        "id": "B79SjutuLt-BXuCV4dXbn",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "contactoId",
+        "dataType": "text",
+        "options": 12
+      },
+      "mR_uueU8-amdu10-w3eKc": {
+        "id": "mR_uueU8-amdu10-w3eKc",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "domicilioId",
+        "dataType": "text",
+        "options": 12
+      },
+      "PvFQ4YHZ1jwJmSru_aWNV": {
+        "id": "PvFQ4YHZ1jwJmSru_aWNV",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "creadoEl",
+        "dataType": "timestamp",
+        "default": "now()",
+        "options": 8
+      },
+      "1vkPBzp1LEdAebuTrFP3b": {
+        "id": "1vkPBzp1LEdAebuTrFP3b",
+        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+        "name": "actualizadoEl",
+        "dataType": "timestamp",
+        "options": 8
+      },
+      "rYgpsxYFh-mwoLg4SajxG": {
+        "id": "rYgpsxYFh-mwoLg4SajxG",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "id",
+        "dataType": "text",
+        "default": "cuid(1)",
+        "options": 14
+      },
+      "tFX7Vvdt5uZGwciQVhUED": {
+        "id": "tFX7Vvdt5uZGwciQVhUED",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "calle",
+        "dataType": "text?",
+        "options": 0
+      },
+      "NakN-8FooNrmpemF-3FCQ": {
+        "id": "NakN-8FooNrmpemF-3FCQ",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "numeroExterior",
+        "dataType": "text?",
+        "options": 0
+      },
+      "KGx-brkZTWVwwuWDjFGWV": {
+        "id": "KGx-brkZTWVwwuWDjFGWV",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "numeroInterior",
+        "dataType": "text?",
+        "options": 0
+      },
+      "B3aApT-HYng5F_q4hm5an": {
+        "id": "B3aApT-HYng5F_q4hm5an",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "colonia",
+        "dataType": "text?",
+        "options": 0
+      },
+      "_2VdG_QAKKDy7KHaLcJXg": {
+        "id": "_2VdG_QAKKDy7KHaLcJXg",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "municipio",
+        "dataType": "text?",
+        "options": 0
+      },
+      "sYlknIfjO12FHEVPpr9FB": {
+        "id": "sYlknIfjO12FHEVPpr9FB",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "localidad",
+        "dataType": "text?",
+        "options": 0
+      },
+      "ESS6AjjTHxt4iR-B56GPG": {
+        "id": "ESS6AjjTHxt4iR-B56GPG",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "entidad",
+        "dataType": "text?",
+        "options": 0
+      },
+      "qGnL_3sk7Tr_nMtRIzd9m": {
+        "id": "qGnL_3sk7Tr_nMtRIzd9m",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "codigoPostal",
+        "dataType": "text?",
+        "options": 0
+      },
+      "Sd02MfQD56TegB09XbQlv": {
+        "id": "Sd02MfQD56TegB09XbQlv",
+        "tableId": "XA4ZQy2kywB9gXaqNizfp",
+        "name": "entreCalles",
+        "dataType": "text?",
+        "options": 0
+      },
+      "A57ICu-z8QCId0DA6MhPu": {
+        "id": "A57ICu-z8QCId0DA6MhPu",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
+        "name": "id",
+        "dataType": "text",
+        "default": "cuid(1)",
+        "options": 14
       },
       "68Fvj1JPesxNcDSbvY2zK": {
         "id": "68Fvj1JPesxNcDSbvY2zK",
@@ -255,13 +472,40 @@
         "dataType": "text",
         "options": 8
       },
-      "A57ICu-z8QCId0DA6MhPu": {
-        "id": "A57ICu-z8QCId0DA6MhPu",
+      "4th-m9hlt2mwO3XzrXfBE": {
+        "id": "4th-m9hlt2mwO3XzrXfBE",
         "tableId": "G0_9gnlriZMlbke7SZ__X",
-        "name": "id",
+        "name": "cargo",
         "dataType": "text",
-        "default": "cuid(1)",
-        "options": 14
+        "options": 8
+      },
+      "0JBb9gA68BasICkg9GbKY": {
+        "id": "0JBb9gA68BasICkg9GbKY",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
+        "name": "telefonoFijo",
+        "dataType": "text?",
+        "options": 0
+      },
+      "l07jpgNdGcWgG6qU9h4Vp": {
+        "id": "l07jpgNdGcWgG6qU9h4Vp",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
+        "name": "extension",
+        "dataType": "text?",
+        "options": 0
+      },
+      "ujZe_-zp1HUtXUwOneDXk": {
+        "id": "ujZe_-zp1HUtXUwOneDXk",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
+        "name": "celular",
+        "dataType": "text?",
+        "options": 0
+      },
+      "VXfVV1iM8ThOn3T42t4kD": {
+        "id": "VXfVV1iM8ThOn3T42t4kD",
+        "tableId": "G0_9gnlriZMlbke7SZ__X",
+        "name": "correo",
+        "dataType": "text?",
+        "options": 0
       },
       "IxBGkBL1hI7x6fvLq0LN2": {
         "id": "IxBGkBL1hI7x6fvLq0LN2",
@@ -278,334 +522,28 @@
         "default": "true",
         "options": 8
       },
-      "VXfVV1iM8ThOn3T42t4kD": {
-        "id": "VXfVV1iM8ThOn3T42t4kD",
+      "xM1L6TuhdNwIzq5uTSDa8": {
+        "id": "xM1L6TuhdNwIzq5uTSDa8",
         "tableId": "G0_9gnlriZMlbke7SZ__X",
-        "name": "correo",
-        "dataType": "text?",
-        "options": 0
-      },
-      "l07jpgNdGcWgG6qU9h4Vp": {
-        "id": "l07jpgNdGcWgG6qU9h4Vp",
-        "tableId": "G0_9gnlriZMlbke7SZ__X",
-        "name": "extension",
-        "dataType": "text?",
-        "options": 0
-      },
-      "p0UkaXA4mxohBSZ2SeNPW": {
-        "id": "p0UkaXA4mxohBSZ2SeNPW",
-        "tableId": "G0_9gnlriZMlbke7SZ__X",
-        "name": "updatedAt",
-        "dataType": "timestamp",
-        "options": 8
-      },
-      "r4rrYFIrf9p73azeYUeAO": {
-        "id": "r4rrYFIrf9p73azeYUeAO",
-        "tableId": "G0_9gnlriZMlbke7SZ__X",
-        "name": "createdAt",
+        "name": "creadoEl",
         "dataType": "timestamp",
         "default": "now()",
         "options": 8
       },
-      "ujZe_-zp1HUtXUwOneDXk": {
-        "id": "ujZe_-zp1HUtXUwOneDXk",
+      "pS6t179NUCEZ_NTUw0LoL": {
+        "id": "pS6t179NUCEZ_NTUw0LoL",
         "tableId": "G0_9gnlriZMlbke7SZ__X",
-        "name": "celular",
-        "dataType": "text?",
-        "options": 0
-      },
-      "-aEEuV2j9zkTVxW5yxlz-": {
-        "id": "-aEEuV2j9zkTVxW5yxlz-",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "tipoPersona",
-        "dataType": "TipoPersona?",
-        "options": 0
-      },
-      "0FnAW4TktF2R6qKZB6Ik2": {
-        "id": "0FnAW4TktF2R6qKZB6Ik2",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "folio",
-        "dataType": "text?",
-        "options": 4
-      },
-      "1rjc14UxrbuEKybLj-VhH": {
-        "id": "1rjc14UxrbuEKybLj-VhH",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "correoGeneral",
-        "dataType": "text",
+        "name": "actualizadoEl",
+        "dataType": "timestamp",
         "options": 8
       },
-      "6q78vAZCiXKmkKJ7pa6Qo": {
-        "id": "6q78vAZCiXKmkKJ7pa6Qo",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "tipoEmpleador",
-        "dataType": "TipoEmpleador",
-        "options": 8
-      },
-      "AByhC_nmJKzxBLIhgax1V": {
-        "id": "AByhC_nmJKzxBLIhgax1V",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "cantidadEempleados",
-        "dataType": "integer",
-        "options": 8
-      },
-      "AXsM9f4DlvAw_IMRHB0Qx": {
-        "id": "AXsM9f4DlvAw_IMRHB0Qx",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "descripcion",
-        "dataType": "text?",
-        "options": 0
-      },
-      "B79SjutuLt-BXuCV4dXbn": {
-        "id": "B79SjutuLt-BXuCV4dXbn",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "contactoId",
-        "dataType": "text",
-        "options": 12
-      },
-      "R2BCF3hvJCRc01a3TRT_V": {
-        "id": "R2BCF3hvJCRc01a3TRT_V",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "razonSocial",
-        "dataType": "text?",
-        "options": 0
-      },
-      "USph2c3saq1FymagQIdt-": {
-        "id": "USph2c3saq1FymagQIdt-",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "curp",
-        "dataType": "text?",
-        "options": 0
-      },
-      "WoJX3rjRaTV8WTp2271aA": {
-        "id": "WoJX3rjRaTV8WTp2271aA",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
+      "oOC7LcEAzljvBtbdHZauZ": {
+        "id": "oOC7LcEAzljvBtbdHZauZ",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
         "name": "id",
         "dataType": "text",
         "default": "cuid(1)",
         "options": 14
-      },
-      "_BFbq0Ld5ne_er7lcaf0v": {
-        "id": "_BFbq0Ld5ne_er7lcaf0v",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "rfc",
-        "dataType": "text",
-        "options": 8
-      },
-      "eUccm-n3V-IjJadTcm8HI": {
-        "id": "eUccm-n3V-IjJadTcm8HI",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "ramaActividad",
-        "dataType": "text",
-        "options": 8
-      },
-      "kJVYmOd4MND6A9bHOyLrh": {
-        "id": "kJVYmOd4MND6A9bHOyLrh",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "tipoSociedad",
-        "dataType": "text?",
-        "options": 0
-      },
-      "kS8gXI4HuUSQ8lBhAsAb-": {
-        "id": "kS8gXI4HuUSQ8lBhAsAb-",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "paginaWeb",
-        "dataType": "text?",
-        "options": 0
-      },
-      "mR_uueU8-amdu10-w3eKc": {
-        "id": "mR_uueU8-amdu10-w3eKc",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "domicilioId",
-        "dataType": "text",
-        "options": 12
-      },
-      "oq7444tpLIQyDCkGKX2Wp": {
-        "id": "oq7444tpLIQyDCkGKX2Wp",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "createdAt",
-        "dataType": "timestamp",
-        "default": "now()",
-        "options": 8
-      },
-      "pWX8T2lMzfE-G6kIlCqIV": {
-        "id": "pWX8T2lMzfE-G6kIlCqIV",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "updatedAt",
-        "dataType": "timestamp",
-        "options": 8
-      },
-      "w4nnuxd05VJPeCdZykOsv": {
-        "id": "w4nnuxd05VJPeCdZykOsv",
-        "tableId": "H8v4NtsH1bK5onJVucw9Y",
-        "name": "nombreComercial",
-        "dataType": "text?",
-        "options": 0
-      },
-      "6E2EUg0k1LVywtNTIyTJP": {
-        "id": "6E2EUg0k1LVywtNTIyTJP",
-        "tableId": "NAfl1fSYLZut7rcWxeptf",
-        "name": "resultado",
-        "dataType": "ResultadoSeguimiento",
-        "options": 8
-      },
-      "99wirWAHS0Wh3GeZ0vcQd": {
-        "id": "99wirWAHS0Wh3GeZ0vcQd",
-        "tableId": "NAfl1fSYLZut7rcWxeptf",
-        "name": "fecha",
-        "dataType": "timestamp",
-        "default": "now()",
-        "options": 8
-      },
-      "Qo7ElO4SdJs2-6d-ut3Ph": {
-        "id": "Qo7ElO4SdJs2-6d-ut3Ph",
-        "tableId": "NAfl1fSYLZut7rcWxeptf",
-        "name": "id",
-        "dataType": "text",
-        "default": "cuid(1)",
-        "options": 14
-      },
-      "iPaK_EUugcQ9bcuqS_VJ2": {
-        "id": "iPaK_EUugcQ9bcuqS_VJ2",
-        "tableId": "NAfl1fSYLZut7rcWxeptf",
-        "name": "comentario",
-        "dataType": "text?",
-        "options": 0
-      },
-      "uJEIjRxwOxpQRx7tDJX3U": {
-        "id": "uJEIjRxwOxpQRx7tDJX3U",
-        "tableId": "NAfl1fSYLZut7rcWxeptf",
-        "name": "vacanteId",
-        "dataType": "text",
-        "options": 8
-      },
-      "B3aApT-HYng5F_q4hm5an": {
-        "id": "B3aApT-HYng5F_q4hm5an",
-        "tableId": "XA4ZQy2kywB9gXaqNizfp",
-        "name": "colonia",
-        "dataType": "text?",
-        "options": 0
-      },
-      "ESS6AjjTHxt4iR-B56GPG": {
-        "id": "ESS6AjjTHxt4iR-B56GPG",
-        "tableId": "XA4ZQy2kywB9gXaqNizfp",
-        "name": "entidad",
-        "dataType": "text?",
-        "options": 0
-      },
-      "KGx-brkZTWVwwuWDjFGWV": {
-        "id": "KGx-brkZTWVwwuWDjFGWV",
-        "tableId": "XA4ZQy2kywB9gXaqNizfp",
-        "name": "numeroInterior",
-        "dataType": "text?",
-        "options": 0
-      },
-      "NakN-8FooNrmpemF-3FCQ": {
-        "id": "NakN-8FooNrmpemF-3FCQ",
-        "tableId": "XA4ZQy2kywB9gXaqNizfp",
-        "name": "numeroExterior",
-        "dataType": "text?",
-        "options": 0
-      },
-      "Sd02MfQD56TegB09XbQlv": {
-        "id": "Sd02MfQD56TegB09XbQlv",
-        "tableId": "XA4ZQy2kywB9gXaqNizfp",
-        "name": "entreCalles",
-        "dataType": "text?",
-        "options": 0
-      },
-      "_2VdG_QAKKDy7KHaLcJXg": {
-        "id": "_2VdG_QAKKDy7KHaLcJXg",
-        "tableId": "XA4ZQy2kywB9gXaqNizfp",
-        "name": "municipio",
-        "dataType": "text?",
-        "options": 0
-      },
-      "qGnL_3sk7Tr_nMtRIzd9m": {
-        "id": "qGnL_3sk7Tr_nMtRIzd9m",
-        "tableId": "XA4ZQy2kywB9gXaqNizfp",
-        "name": "codigoPostal",
-        "dataType": "text?",
-        "options": 0
-      },
-      "rYgpsxYFh-mwoLg4SajxG": {
-        "id": "rYgpsxYFh-mwoLg4SajxG",
-        "tableId": "XA4ZQy2kywB9gXaqNizfp",
-        "name": "id",
-        "dataType": "text",
-        "default": "cuid(1)",
-        "options": 14
-      },
-      "sYlknIfjO12FHEVPpr9FB": {
-        "id": "sYlknIfjO12FHEVPpr9FB",
-        "tableId": "XA4ZQy2kywB9gXaqNizfp",
-        "name": "localidad",
-        "dataType": "text?",
-        "options": 0
-      },
-      "tFX7Vvdt5uZGwciQVhUED": {
-        "id": "tFX7Vvdt5uZGwciQVhUED",
-        "tableId": "XA4ZQy2kywB9gXaqNizfp",
-        "name": "calle",
-        "dataType": "text?",
-        "options": 0
-      },
-      "-RcsYT9uyNgKmIV19RiBu": {
-        "id": "-RcsYT9uyNgKmIV19RiBu",
-        "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "updatedAt",
-        "dataType": "timestamp",
-        "options": 8
-      },
-      "5cbfRXZiKxwToyn41XOra": {
-        "id": "5cbfRXZiKxwToyn41XOra",
-        "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "escolaridad",
-        "dataType": "text?",
-        "options": 0
-      },
-      "66oz8XqA3G9z1-WmZNX2A": {
-        "id": "66oz8XqA3G9z1-WmZNX2A",
-        "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "fechaReinicio",
-        "dataType": "timestamp",
-        "options": 8
-      },
-      "7epAnXqvmcxjE-RoIrk_O": {
-        "id": "7epAnXqvmcxjE-RoIrk_O",
-        "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "edadMinima",
-        "dataType": "integer?",
-        "options": 0
-      },
-      "9dha-N8-43fN_Ie_I6T7H": {
-        "id": "9dha-N8-43fN_Ie_I6T7H",
-        "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "sueldoMensual",
-        "dataType": "decimal(10, 2)",
-        "options": 8
-      },
-      "A3W8B5l3_xhIbqX0nMd5k": {
-        "id": "A3W8B5l3_xhIbqX0nMd5k",
-        "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "tiempoReclutamiento",
-        "dataType": "text",
-        "options": 8
-      },
-      "ARxa9G0c0FuOqJRV4MRxF": {
-        "id": "ARxa9G0c0FuOqJRV4MRxF",
-        "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "createdAt",
-        "dataType": "timestamp",
-        "default": "now()",
-        "options": 8
-      },
-      "GHsAhzSaWOlVqbAkEd6K5": {
-        "id": "GHsAhzSaWOlVqbAkEd6K5",
-        "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "empresaId",
-        "dataType": "text",
-        "options": 8
       },
       "GyDBR5AEBjVyoKQiPISYX": {
         "id": "GyDBR5AEBjVyoKQiPISYX",
@@ -614,26 +552,19 @@
         "dataType": "text?",
         "options": 4
       },
-      "H_HeceYbaJYGVxbgaPeim": {
-        "id": "H_HeceYbaJYGVxbgaPeim",
+      "GHsAhzSaWOlVqbAkEd6K5": {
+        "id": "GHsAhzSaWOlVqbAkEd6K5",
         "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "descripcionPuesto",
+        "name": "empresaId",
         "dataType": "text",
         "options": 8
       },
-      "MU73hR9-lhLS2ZARQHuaI": {
-        "id": "MU73hR9-lhLS2ZARQHuaI",
+      "y5fTSVZEjsg24BmIFVz3g": {
+        "id": "y5fTSVZEjsg24BmIFVz3g",
         "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "prestaciones",
+        "name": "puesto",
         "dataType": "text",
         "options": 8
-      },
-      "PfqoYmM-W6mOobbdBneX3": {
-        "id": "PfqoYmM-W6mOobbdBneX3",
-        "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "tipoDiscapacidad",
-        "dataType": "TipoDiscapacidad?",
-        "options": 0
       },
       "T5g_o8fR2_Iv1LliVibLA": {
         "id": "T5g_o8fR2_Iv1LliVibLA",
@@ -643,13 +574,47 @@
         "default": "1",
         "options": 8
       },
-      "WAK_jfpAcdHycbSlxmR13": {
-        "id": "WAK_jfpAcdHycbSlxmR13",
+      "7epAnXqvmcxjE-RoIrk_O": {
+        "id": "7epAnXqvmcxjE-RoIrk_O",
         "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "cubierta",
-        "dataType": "boolean",
-        "default": "false",
+        "name": "edadMinima",
+        "dataType": "integer?",
+        "options": 0
+      },
+      "zQCHdsk-YMFFHxow3eIAj": {
+        "id": "zQCHdsk-YMFFHxow3eIAj",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "edadMaxima",
+        "dataType": "integer?",
+        "options": 0
+      },
+      "5cbfRXZiKxwToyn41XOra": {
+        "id": "5cbfRXZiKxwToyn41XOra",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "escolaridad",
+        "dataType": "text?",
+        "options": 0
+      },
+      "qiH2aVVDw-oHibU3bO9pb": {
+        "id": "qiH2aVVDw-oHibU3bO9pb",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "sexo",
+        "dataType": "Sexo",
         "options": 8
+      },
+      "9dha-N8-43fN_Ie_I6T7H": {
+        "id": "9dha-N8-43fN_Ie_I6T7H",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "sueldoMensual",
+        "dataType": "decimal(10, 2)",
+        "options": 8
+      },
+      "htbSmr_3KBnNMpcp_EJQR": {
+        "id": "htbSmr_3KBnNMpcp_EJQR",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "diasTrabajo",
+        "dataType": "integer?",
+        "options": 0
       },
       "b4h7DKXwQatiX7ovN7-y3": {
         "id": "b4h7DKXwQatiX7ovN7-y3",
@@ -665,19 +630,26 @@
         "dataType": "integer",
         "options": 8
       },
-      "htbSmr_3KBnNMpcp_EJQR": {
-        "id": "htbSmr_3KBnNMpcp_EJQR",
-        "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "diasTrabajo",
-        "dataType": "integer?",
-        "options": 0
-      },
       "j2yg188vU2DQ2QO6luK7T": {
         "id": "j2yg188vU2DQ2QO6luK7T",
         "tableId": "qL3FUG1KNkluADKJoB1gq",
         "name": "aceptaDiscapacidad",
         "dataType": "boolean",
         "default": "false",
+        "options": 8
+      },
+      "PfqoYmM-W6mOobbdBneX3": {
+        "id": "PfqoYmM-W6mOobbdBneX3",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "tipoDiscapacidad",
+        "dataType": "TipoDiscapacidad?",
+        "options": 0
+      },
+      "H_HeceYbaJYGVxbgaPeim": {
+        "id": "H_HeceYbaJYGVxbgaPeim",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "descripcionPuesto",
+        "dataType": "text",
         "options": 8
       },
       "kpAaPGFyWMjeuGpLwHLzI": {
@@ -687,73 +659,204 @@
         "dataType": "text",
         "options": 8
       },
-      "oOC7LcEAzljvBtbdHZauZ": {
-        "id": "oOC7LcEAzljvBtbdHZauZ",
+      "MU73hR9-lhLS2ZARQHuaI": {
+        "id": "MU73hR9-lhLS2ZARQHuaI",
         "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "prestaciones",
+        "dataType": "text",
+        "options": 8
+      },
+      "A3W8B5l3_xhIbqX0nMd5k": {
+        "id": "A3W8B5l3_xhIbqX0nMd5k",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "tiempoReclutamiento",
+        "dataType": "text",
+        "options": 8
+      },
+      "WAK_jfpAcdHycbSlxmR13": {
+        "id": "WAK_jfpAcdHycbSlxmR13",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "cubierta",
+        "dataType": "boolean",
+        "default": "false",
+        "options": 8
+      },
+      "66oz8XqA3G9z1-WmZNX2A": {
+        "id": "66oz8XqA3G9z1-WmZNX2A",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "fechaReinicio",
+        "dataType": "timestamp",
+        "options": 8
+      },
+      "MiCgGO8EbdB7VD_PSFU2C": {
+        "id": "MiCgGO8EbdB7VD_PSFU2C",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "creadoEl",
+        "dataType": "timestamp",
+        "default": "now()",
+        "options": 8
+      },
+      "lXHBxsUx2Dp2hgPCojrmQ": {
+        "id": "lXHBxsUx2Dp2hgPCojrmQ",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "name": "actualizadoEl",
+        "dataType": "timestamp",
+        "options": 8
+      },
+      "B1EKy7hnJAQoFztRdoR6e": {
+        "id": "B1EKy7hnJAQoFztRdoR6e",
+        "tableId": "1dD3i-Z3R7p_QZjbor8-1",
         "name": "id",
         "dataType": "text",
         "default": "cuid(1)",
         "options": 14
       },
-      "qiH2aVVDw-oHibU3bO9pb": {
-        "id": "qiH2aVVDw-oHibU3bO9pb",
-        "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "sexo",
-        "dataType": "Sexo",
-        "options": 8
-      },
-      "y5fTSVZEjsg24BmIFVz3g": {
-        "id": "y5fTSVZEjsg24BmIFVz3g",
-        "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "puesto",
+      "enYM_u8qv6WylT-8m7TWr": {
+        "id": "enYM_u8qv6WylT-8m7TWr",
+        "tableId": "1dD3i-Z3R7p_QZjbor8-1",
+        "name": "vacanteId",
         "dataType": "text",
         "options": 8
       },
-      "zQCHdsk-YMFFHxow3eIAj": {
-        "id": "zQCHdsk-YMFFHxow3eIAj",
-        "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "name": "edadMaxima",
-        "dataType": "integer?",
+      "3hbwdJ8OLITRw-0KuggMB": {
+        "id": "3hbwdJ8OLITRw-0KuggMB",
+        "tableId": "1dD3i-Z3R7p_QZjbor8-1",
+        "name": "tipo",
+        "dataType": "TipoMedioContacto",
+        "options": 8
+      },
+      "6xmSdlyiBclhkNA54U8HD": {
+        "id": "6xmSdlyiBclhkNA54U8HD",
+        "tableId": "1dD3i-Z3R7p_QZjbor8-1",
+        "name": "horario",
+        "dataType": "text?",
         "options": 0
+      },
+      "Qo7ElO4SdJs2-6d-ut3Ph": {
+        "id": "Qo7ElO4SdJs2-6d-ut3Ph",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "name": "id",
+        "dataType": "text",
+        "default": "cuid(1)",
+        "options": 14
+      },
+      "uJEIjRxwOxpQRx7tDJX3U": {
+        "id": "uJEIjRxwOxpQRx7tDJX3U",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "name": "vacanteId",
+        "dataType": "text",
+        "options": 8
+      },
+      "99wirWAHS0Wh3GeZ0vcQd": {
+        "id": "99wirWAHS0Wh3GeZ0vcQd",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "name": "fecha",
+        "dataType": "timestamp",
+        "default": "now()",
+        "options": 8
+      },
+      "6E2EUg0k1LVywtNTIyTJP": {
+        "id": "6E2EUg0k1LVywtNTIyTJP",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "name": "resultado",
+        "dataType": "ResultadoSeguimiento",
+        "options": 8
+      },
+      "iPaK_EUugcQ9bcuqS_VJ2": {
+        "id": "iPaK_EUugcQ9bcuqS_VJ2",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "name": "comentario",
+        "dataType": "text?",
+        "options": 0
+      },
+      "DPLfR4J3Aq1fwxPzyz7IX": {
+        "id": "DPLfR4J3Aq1fwxPzyz7IX",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "name": "curp",
+        "dataType": "text?",
+        "options": 0
+      },
+      "kQJWDB_xWRAFefN-leHn_": {
+        "id": "kQJWDB_xWRAFefN-leHn_",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "name": "nombre",
+        "dataType": "text?",
+        "options": 0
+      },
+      "ElPH1E3_ct9Fn4Q2Tpl3H": {
+        "id": "ElPH1E3_ct9Fn4Q2Tpl3H",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "name": "puesto",
+        "dataType": "text?",
+        "options": 0
+      },
+      "7GP8R04ZumeKy1773igjl": {
+        "id": "7GP8R04ZumeKy1773igjl",
+        "tableId": "1tyTCWKv052NvZbGwNrRF",
+        "name": "id",
+        "dataType": "text",
+        "default": "cuid(1)",
+        "options": 14
+      },
+      "xn5BqOymCHB5MTA7VeUbi": {
+        "id": "xn5BqOymCHB5MTA7VeUbi",
+        "tableId": "1tyTCWKv052NvZbGwNrRF",
+        "name": "correo",
+        "dataType": "text",
+        "options": 12
+      },
+      "mLdTsU0LJDsJfXW-DMFEv": {
+        "id": "mLdTsU0LJDsJfXW-DMFEv",
+        "tableId": "1tyTCWKv052NvZbGwNrRF",
+        "name": "contra",
+        "dataType": "text",
+        "options": 8
+      },
+      "jaAys0kGyByRN1wKcBh1u": {
+        "id": "jaAys0kGyByRN1wKcBh1u",
+        "tableId": "R_g6abUuHKYOCUw2RX_pI",
+        "name": "id",
+        "dataType": "text",
+        "default": "cuid(1)",
+        "options": 14
+      },
+      "-caA-Qwt7fw9tnR_xMXgm": {
+        "id": "-caA-Qwt7fw9tnR_xMXgm",
+        "tableId": "R_g6abUuHKYOCUw2RX_pI",
+        "name": "expiraEl",
+        "dataType": "timestamp",
+        "options": 8
+      },
+      "AT-Q6_hsg96AhzGlNPmy4": {
+        "id": "AT-Q6_hsg96AhzGlNPmy4",
+        "tableId": "R_g6abUuHKYOCUw2RX_pI",
+        "name": "token",
+        "dataType": "text",
+        "options": 8
+      },
+      "12oCHdp23ugxllewZ0du9": {
+        "id": "12oCHdp23ugxllewZ0du9",
+        "tableId": "R_g6abUuHKYOCUw2RX_pI",
+        "name": "creadoEl",
+        "dataType": "timestamp",
+        "options": 8
+      },
+      "Pi6qXTJlp_uTyF4wf3wNT": {
+        "id": "Pi6qXTJlp_uTyF4wf3wNT",
+        "tableId": "R_g6abUuHKYOCUw2RX_pI",
+        "name": "actualizadoEl",
+        "dataType": "timestamp",
+        "options": 8
+      },
+      "oxbXVt9qMRkt2yVsRDErZ": {
+        "id": "oxbXVt9qMRkt2yVsRDErZ",
+        "tableId": "R_g6abUuHKYOCUw2RX_pI",
+        "name": "usuarioId",
+        "dataType": "text",
+        "options": 8
       }
     },
     "relationshipEntities": {
-      "2I_8hsb4frwHT1M7ByJmH": {
-        "id": "2I_8hsb4frwHT1M7ByJmH",
-        "relationshipType": 16,
-        "onDelete": 1,
-        "onUpdate": 1,
-        "start": {
-          "tableId": "H8v4NtsH1bK5onJVucw9Y",
-          "columnIds": [
-            "WoJX3rjRaTV8WTp2271aA"
-          ]
-        },
-        "end": {
-          "tableId": "qL3FUG1KNkluADKJoB1gq",
-          "columnIds": [
-            "GHsAhzSaWOlVqbAkEd6K5"
-          ]
-        }
-      },
-      "BTQB2m-myTa-mmz6L59An": {
-        "id": "BTQB2m-myTa-mmz6L59An",
-        "relationshipType": 16,
-        "onDelete": 1,
-        "onUpdate": 1,
-        "start": {
-          "tableId": "qL3FUG1KNkluADKJoB1gq",
-          "columnIds": [
-            "oOC7LcEAzljvBtbdHZauZ"
-          ]
-        },
-        "end": {
-          "tableId": "NAfl1fSYLZut7rcWxeptf",
-          "columnIds": [
-            "uJEIjRxwOxpQRx7tDJX3U"
-          ]
-        }
-      },
       "Dw5sTdyoL--PxEGfxABcm": {
         "id": "Dw5sTdyoL--PxEGfxABcm",
         "relationshipType": 8,
@@ -772,10 +875,46 @@
           ]
         }
       },
+      "qdKURxKIBXhfZ1k1dFSUw": {
+        "id": "qdKURxKIBXhfZ1k1dFSUw",
+        "relationshipType": 8,
+        "onDelete": 4,
+        "onUpdate": 4,
+        "start": {
+          "tableId": "XA4ZQy2kywB9gXaqNizfp",
+          "columnIds": [
+            "rYgpsxYFh-mwoLg4SajxG"
+          ]
+        },
+        "end": {
+          "tableId": "H8v4NtsH1bK5onJVucw9Y",
+          "columnIds": [
+            "mR_uueU8-amdu10-w3eKc"
+          ]
+        }
+      },
+      "2I_8hsb4frwHT1M7ByJmH": {
+        "id": "2I_8hsb4frwHT1M7ByJmH",
+        "relationshipType": 16,
+        "onDelete": 1,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "H8v4NtsH1bK5onJVucw9Y",
+          "columnIds": [
+            "WoJX3rjRaTV8WTp2271aA"
+          ]
+        },
+        "end": {
+          "tableId": "qL3FUG1KNkluADKJoB1gq",
+          "columnIds": [
+            "GHsAhzSaWOlVqbAkEd6K5"
+          ]
+        }
+      },
       "NF6nyvuZ2xwusf2rN9x63": {
         "id": "NF6nyvuZ2xwusf2rN9x63",
         "relationshipType": 16,
-        "onDelete": 1,
+        "onDelete": 4,
         "onUpdate": 1,
         "start": {
           "tableId": "qL3FUG1KNkluADKJoB1gq",
@@ -790,44 +929,44 @@
           ]
         }
       },
-      "qdKURxKIBXhfZ1k1dFSUw": {
-        "id": "qdKURxKIBXhfZ1k1dFSUw",
-        "relationshipType": 8,
-        "onDelete": 1,
+      "BTQB2m-myTa-mmz6L59An": {
+        "id": "BTQB2m-myTa-mmz6L59An",
+        "relationshipType": 16,
+        "onDelete": 4,
         "onUpdate": 1,
         "start": {
-          "tableId": "XA4ZQy2kywB9gXaqNizfp",
+          "tableId": "qL3FUG1KNkluADKJoB1gq",
           "columnIds": [
-            "rYgpsxYFh-mwoLg4SajxG"
+            "oOC7LcEAzljvBtbdHZauZ"
           ]
         },
         "end": {
-          "tableId": "H8v4NtsH1bK5onJVucw9Y",
+          "tableId": "NAfl1fSYLZut7rcWxeptf",
           "columnIds": [
-            "mR_uueU8-amdu10-w3eKc"
+            "uJEIjRxwOxpQRx7tDJX3U"
+          ]
+        }
+      },
+      "e6Bb0WqGp3bLsvp1HTZmR": {
+        "id": "e6Bb0WqGp3bLsvp1HTZmR",
+        "relationshipType": 16,
+        "onDelete": 4,
+        "onUpdate": 1,
+        "start": {
+          "tableId": "1tyTCWKv052NvZbGwNrRF",
+          "columnIds": [
+            "7GP8R04ZumeKy1773igjl"
+          ]
+        },
+        "end": {
+          "tableId": "R_g6abUuHKYOCUw2RX_pI",
+          "columnIds": [
+            "oxbXVt9qMRkt2yVsRDErZ"
           ]
         }
       }
     },
     "indexEntities": {
-      "3O-9D6koKNgD2b-AIzZJH": {
-        "id": "3O-9D6koKNgD2b-AIzZJH",
-        "name": "Vacante_cubierta_idx",
-        "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "indexColumnIds": [
-          "tTzaGrV8uhfteKOsO3lcp"
-        ],
-        "unique": false
-      },
-      "4L7uhApDGxwSgU6tMOf5X": {
-        "id": "4L7uhApDGxwSgU6tMOf5X",
-        "name": "SeguimientoVacante_vacanteId_idx",
-        "tableId": "NAfl1fSYLZut7rcWxeptf",
-        "indexColumnIds": [
-          "8SwIoTJvgU5PVb0QW03OJ"
-        ],
-        "unique": false
-      },
       "4kcjyQ3mGNhaQj9UfKTsJ": {
         "id": "4kcjyQ3mGNhaQj9UfKTsJ",
         "name": "Empresa_razonSocial_idx",
@@ -846,12 +985,30 @@
         ],
         "unique": false
       },
+      "oZ1BX1rc2j9bEbFHK3-w4": {
+        "id": "oZ1BX1rc2j9bEbFHK3-w4",
+        "name": "Vacante_empresaId_idx",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "indexColumnIds": [
+          "m6S9y1nWslQjrNfxvoZ-_"
+        ],
+        "unique": false
+      },
       "Uu5YLl3IhA4VTorVLaMCZ": {
         "id": "Uu5YLl3IhA4VTorVLaMCZ",
         "name": "Vacante_fechaReinicio_idx",
         "tableId": "qL3FUG1KNkluADKJoB1gq",
         "indexColumnIds": [
           "p7BLD9IAI66bZS6UWr5bE"
+        ],
+        "unique": false
+      },
+      "3O-9D6koKNgD2b-AIzZJH": {
+        "id": "3O-9D6koKNgD2b-AIzZJH",
+        "name": "Vacante_cubierta_idx",
+        "tableId": "qL3FUG1KNkluADKJoB1gq",
+        "indexColumnIds": [
+          "tTzaGrV8uhfteKOsO3lcp"
         ],
         "unique": false
       },
@@ -864,24 +1021,6 @@
         ],
         "unique": false
       },
-      "XpDQL4WvR_3-dbFNkGA0s": {
-        "id": "XpDQL4WvR_3-dbFNkGA0s",
-        "name": "SeguimientoVacante_fecha_idx",
-        "tableId": "NAfl1fSYLZut7rcWxeptf",
-        "indexColumnIds": [
-          "E48HM4iArbCPDMQkYghZZ"
-        ],
-        "unique": false
-      },
-      "oZ1BX1rc2j9bEbFHK3-w4": {
-        "id": "oZ1BX1rc2j9bEbFHK3-w4",
-        "name": "Vacante_empresaId_idx",
-        "tableId": "qL3FUG1KNkluADKJoB1gq",
-        "indexColumnIds": [
-          "m6S9y1nWslQjrNfxvoZ-_"
-        ],
-        "unique": false
-      },
       "uVm6S9fuvQ0A1KcMztK_9": {
         "id": "uVm6S9fuvQ0A1KcMztK_9",
         "name": "MedioContactoVacante_vacanteId_idx",
@@ -890,21 +1029,27 @@
           "z9WM3gJruW1cfrC7R5CLZ"
         ],
         "unique": false
+      },
+      "4L7uhApDGxwSgU6tMOf5X": {
+        "id": "4L7uhApDGxwSgU6tMOf5X",
+        "name": "SeguimientoVacante_vacanteId_idx",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "indexColumnIds": [
+          "8SwIoTJvgU5PVb0QW03OJ"
+        ],
+        "unique": false
+      },
+      "XpDQL4WvR_3-dbFNkGA0s": {
+        "id": "XpDQL4WvR_3-dbFNkGA0s",
+        "name": "SeguimientoVacante_fecha_idx",
+        "tableId": "NAfl1fSYLZut7rcWxeptf",
+        "indexColumnIds": [
+          "E48HM4iArbCPDMQkYghZZ"
+        ],
+        "unique": false
       }
     },
     "indexColumnEntities": {
-      "tTzaGrV8uhfteKOsO3lcp": {
-        "id": "tTzaGrV8uhfteKOsO3lcp",
-        "indexId": "3O-9D6koKNgD2b-AIzZJH",
-        "columnId": "WAK_jfpAcdHycbSlxmR13",
-        "orderType": 1
-      },
-      "8SwIoTJvgU5PVb0QW03OJ": {
-        "id": "8SwIoTJvgU5PVb0QW03OJ",
-        "indexId": "4L7uhApDGxwSgU6tMOf5X",
-        "columnId": "uJEIjRxwOxpQRx7tDJX3U",
-        "orderType": 1
-      },
       "AXc12ZThqA3uN0ZZzZxvL": {
         "id": "AXc12ZThqA3uN0ZZzZxvL",
         "indexId": "4kcjyQ3mGNhaQj9UfKTsJ",
@@ -917,10 +1062,22 @@
         "columnId": "_BFbq0Ld5ne_er7lcaf0v",
         "orderType": 1
       },
+      "m6S9y1nWslQjrNfxvoZ-_": {
+        "id": "m6S9y1nWslQjrNfxvoZ-_",
+        "indexId": "oZ1BX1rc2j9bEbFHK3-w4",
+        "columnId": "GHsAhzSaWOlVqbAkEd6K5",
+        "orderType": 1
+      },
       "p7BLD9IAI66bZS6UWr5bE": {
         "id": "p7BLD9IAI66bZS6UWr5bE",
         "indexId": "Uu5YLl3IhA4VTorVLaMCZ",
         "columnId": "66oz8XqA3G9z1-WmZNX2A",
+        "orderType": 1
+      },
+      "tTzaGrV8uhfteKOsO3lcp": {
+        "id": "tTzaGrV8uhfteKOsO3lcp",
+        "indexId": "3O-9D6koKNgD2b-AIzZJH",
+        "columnId": "WAK_jfpAcdHycbSlxmR13",
         "orderType": 1
       },
       "OdaVj7qUHjeQRdW_tZgSx": {
@@ -929,34 +1086,34 @@
         "columnId": "y5fTSVZEjsg24BmIFVz3g",
         "orderType": 1
       },
-      "E48HM4iArbCPDMQkYghZZ": {
-        "id": "E48HM4iArbCPDMQkYghZZ",
-        "indexId": "XpDQL4WvR_3-dbFNkGA0s",
-        "columnId": "99wirWAHS0Wh3GeZ0vcQd",
-        "orderType": 1
-      },
-      "m6S9y1nWslQjrNfxvoZ-_": {
-        "id": "m6S9y1nWslQjrNfxvoZ-_",
-        "indexId": "oZ1BX1rc2j9bEbFHK3-w4",
-        "columnId": "GHsAhzSaWOlVqbAkEd6K5",
-        "orderType": 1
-      },
       "z9WM3gJruW1cfrC7R5CLZ": {
         "id": "z9WM3gJruW1cfrC7R5CLZ",
         "indexId": "uVm6S9fuvQ0A1KcMztK_9",
         "columnId": "enYM_u8qv6WylT-8m7TWr",
         "orderType": 1
+      },
+      "8SwIoTJvgU5PVb0QW03OJ": {
+        "id": "8SwIoTJvgU5PVb0QW03OJ",
+        "indexId": "4L7uhApDGxwSgU6tMOf5X",
+        "columnId": "uJEIjRxwOxpQRx7tDJX3U",
+        "orderType": 1
+      },
+      "E48HM4iArbCPDMQkYghZZ": {
+        "id": "E48HM4iArbCPDMQkYghZZ",
+        "indexId": "XpDQL4WvR_3-dbFNkGA0s",
+        "columnId": "99wirWAHS0Wh3GeZ0vcQd",
+        "orderType": 1
       }
     },
     "memoEntities": {
-      "-BeIhZARLNg55WHcl_9Py": {
-        "id": "-BeIhZARLNg55WHcl_9Py",
-        "value": "TipoDiscapacidad\nAUDITIVA\nINTELECTUAL\nMENTAL\nMOTORA\nVISUAL\nCOMUNICACION\nINTELECTUAL_MENTAL\nOTRAS",
+      "n_uLq2zyU4H4mXVOBZWa1": {
+        "id": "n_uLq2zyU4H4mXVOBZWa1",
+        "value": "TipoEmpleador\nPRIVADA\nPUBLICA\nSOCIAL",
         "ui": {
-          "x": 1141.4815,
+          "x": 41.4815,
           "y": 1160.4939,
           "width": 180,
-          "height": 236
+          "height": 126
         }
       },
       "7NhEOiCyP-MKizbTSTx2j": {
@@ -969,16 +1126,6 @@
           "height": 120
         }
       },
-      "8Yz9_rlnD-JPYxX6LyjGK": {
-        "id": "8Yz9_rlnD-JPYxX6LyjGK",
-        "value": "Sexo\nFEMENINO\nMASCULINO\nINDISTINTO",
-        "ui": {
-          "x": 921.4815,
-          "y": 1160.4939,
-          "width": 180,
-          "height": 126
-        }
-      },
       "CWG23piNmanRI0VLddj0n": {
         "id": "CWG23piNmanRI0VLddj0n",
         "value": "TipoMedioContacto\nCORREO\nDOMICILIO\nTELEFONO\nWHATSAPP",
@@ -989,16 +1136,6 @@
           "height": 148
         }
       },
-      "n_uLq2zyU4H4mXVOBZWa1": {
-        "id": "n_uLq2zyU4H4mXVOBZWa1",
-        "value": "TipoEmpleador\nPRIVADA\nPUBLICA\nSOCIAL",
-        "ui": {
-          "x": 41.4815,
-          "y": 1160.4939,
-          "width": 180,
-          "height": 126
-        }
-      },
       "wIHXxeKCU3e5ljZKfi1-m": {
         "id": "wIHXxeKCU3e5ljZKfi1-m",
         "value": "ResultadoSeguimiento\nVIGENTE\nCUBIERTA\nPENDIENTE",
@@ -1007,6 +1144,46 @@
           "y": 1160.4939,
           "width": 180,
           "height": 126
+        }
+      },
+      "8Yz9_rlnD-JPYxX6LyjGK": {
+        "id": "8Yz9_rlnD-JPYxX6LyjGK",
+        "value": "Sexo\nFEMENINO\nMASCULINO\nINDISTINTO",
+        "ui": {
+          "x": 921.4815,
+          "y": 1160.4939,
+          "width": 180,
+          "height": 126
+        }
+      },
+      "-BeIhZARLNg55WHcl_9Py": {
+        "id": "-BeIhZARLNg55WHcl_9Py",
+        "value": "TipoDiscapacidad\nAUDITIVA\nINTELECTUAL\nMENTAL\nMOTORA\nVISUAL\nCOMUNICACION\nINTELECTUAL_MENTAL\nOTRAS",
+        "ui": {
+          "x": 1141.4815,
+          "y": 1160.4939,
+          "width": 180,
+          "height": 236
+        }
+      },
+      "1-Qac6rvQJdNp5AMyI8jT": {
+        "id": "1-Qac6rvQJdNp5AMyI8jT",
+        "value": "MedioConocimiento\nREDES_SOCIALES\nCONOCIDOS\nPRENSA\nAMISTADES\nVISITA_DEL_SNE",
+        "ui": {
+          "x": 60,
+          "y": 2120,
+          "width": 180,
+          "height": 170
+        }
+      },
+      "qykJmsd1xxgUpqNrnzjAk": {
+        "id": "qykJmsd1xxgUpqNrnzjAk",
+        "value": "RegistroPortal\nSI\nNO",
+        "ui": {
+          "x": 280,
+          "y": 2120,
+          "width": 180,
+          "height": 120
         }
       }
     }

@@ -1,0 +1,5 @@
+allowBuilds:
+  '@prisma/engines': true
+  prisma: true
+minimumReleaseAgeExclude:
+  - prisma-erd-editor@0.2.2

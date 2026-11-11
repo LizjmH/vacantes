@@ -34,7 +34,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.6",
     "prisma": "^7.10.0",
-    "prisma-erd-editor": "^0.1.1",
+    "prisma-erd-editor": "^0.2.2",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
