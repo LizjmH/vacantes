@@ -4,7 +4,7 @@ import { UserForm } from "@/components/UserForm";
 export default async function UsersPage() {
   await requireSession();
   return (
-    <main className="min-h-screen bg-neutral-50 px-4 py-10">
+    <main className="min-h-screen bg-canvas px-4 py-10">
       <div className="mx-auto max-w-lg">
         <Link
           href="/dashboard"
@@ -12,7 +12,7 @@ export default async function UsersPage() {
         >
           ← Volver al inicio
         </Link>
-        <div className="rounded-3xl border border-neutral-200 bg-white p-8 sm:p-12">
+        <div className="rounded-3xl border border-line bg-panel p-8 sm:p-12">
           <UserForm />
         </div>
       </div>

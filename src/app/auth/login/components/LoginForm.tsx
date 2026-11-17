@@ -16,7 +16,7 @@ export function LoginForm() {
         <h1 className="text-3xl font-bold tracking-tight">
           Bienvenido de nuevo
         </h1>
-        <p className="text-sm leading-6 text-neutral-500">
+        <p className="text-sm leading-6 text-muted">
           Inicia sesión para gestionar empleadores y vacantes.
         </p>
       </div>
@@ -60,7 +60,7 @@ export function LoginForm() {
           onClick={() => setVisible(!visible)}
           aria-pressed={visible}
           aria-controls="password"
-          className="rounded text-xs text-neutral-600 underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-4"
+          className="rounded text-xs text-secondary underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-4"
         >
           {visible ? "Ocultar contraseña" : "Mostrar contraseña"}
         </button>
@@ -69,7 +69,7 @@ export function LoginForm() {
         {pending ? "Iniciando sesión…" : "Iniciar sesión"}
         <span aria-hidden="true">→</span>
       </Button>
-      <p className="text-center text-xs leading-5 text-neutral-500">
+      <p className="text-center text-xs leading-5 text-muted">
         Si necesitas una cuenta, contacta a la persona encargada del sistema.
       </p>
     </form>

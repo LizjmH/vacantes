@@ -1,0 +1,1 @@
+export const themeBootstrap = `(()=>{let dark=window.matchMedia('(prefers-color-scheme: dark)').matches;try{const saved=localStorage.getItem('sne-theme');if(saved==='dark'||saved==='light')dark=saved==='dark';}catch{}document.documentElement.classList.toggle('dark',dark);document.documentElement.style.colorScheme=dark?'dark':'light';})();`;

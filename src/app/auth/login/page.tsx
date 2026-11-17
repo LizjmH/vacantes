@@ -9,12 +9,12 @@ export default async function LoginPage() {
   const count = await prisma.usuario.count().catch(() => null);
   const hasUsers = count !== null && count > 0;
   return (
-    <main className="flex min-h-screen items-center justify-center bg-neutral-50 px-4 py-10">
-      <div className="flex w-full max-w-lg flex-col items-center gap-9 rounded-3xl border border-neutral-200 bg-white px-6 py-10 shadow-2xl shadow-neutral-200/60 sm:p-14">
+    <main className="flex min-h-screen items-center justify-center bg-canvas px-4 py-10">
+      <div className="flex w-full max-w-lg flex-col items-center gap-9 rounded-3xl border border-line bg-panel px-6 py-10 shadow-2xl shadow-black/5 sm:p-14">
         <div className="flex items-center gap-3 self-start">
           <span
             aria-hidden="true"
-            className="flex size-11 items-center justify-center rounded-xl bg-neutral-900 text-xl font-bold text-white"
+            className="flex size-11 items-center justify-center rounded-xl bg-brand text-xl font-bold text-white"
           >
             SNE
           </span>

@@ -1,7 +1,112 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --canvas: #edf3f7;
+  --panel: #ffffff;
+  --muted-surface: #edf1f5;
+  --line: #dce3eb;
+  --input-line: #c8d1dd;
+  --ink: #1d2937;
+  --secondary: #465365;
+  --muted: #657285;
+  --subtle: #7a8798;
+  --brand: #982b43;
+  --brand-hover: #812138;
+  --brand-soft: #f6e8ed;
+  --brand-ink: #94233d;
+}
+.dark {
+  --canvas: #101824;
+  --panel: #182332;
+  --muted-surface: #223044;
+  --line: #334155;
+  --input-line: #4b5b72;
+  --ink: #eef2f7;
+  --secondary: #c4cfde;
+  --muted: #a5b3c6;
+  --subtle: #94a4b9;
+  --brand: #b13a56;
+  --brand-hover: #c34c68;
+  --brand-soft: #392531;
+  --brand-ink: #f4b1c1;
+  color-scheme: dark;
+}
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-panel: var(--panel);
+  --color-muted-surface: var(--muted-surface);
+  --color-line: var(--line);
+  --color-input-line: var(--input-line);
+  --color-ink: var(--ink);
+  --color-secondary: var(--secondary);
+  --color-muted: var(--muted);
+  --color-subtle: var(--subtle);
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-ink: var(--brand-ink);
+}
+
 body {
-  background: #f8fafc;
-  color: #0f172a;
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--canvas);
+  color: var(--ink);
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    sans-serif;
+}
+
+button,
+summary,
+select {
+  cursor: pointer;
+}
+button:disabled,
+select:disabled {
+  cursor: not-allowed;
+}
+input,
+select,
+textarea {
+  color: var(--ink);
+}
+@layer base {
+  input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]),
+  select,
+  textarea {
+    background-color: var(--panel);
+  }
+}
+input::placeholder,
+textarea::placeholder {
+  color: var(--subtle);
+}
+::selection {
+  background: var(--brand-soft);
+  color: var(--ink);
+}
+.dark :is(.bg-red-50, .bg-amber-50) {
+  background: #3b2530;
+}
+.dark .hover\:bg-red-50:hover {
+  background: #3b2530;
+}
+.dark :is(.text-red-700, .text-red-800, .text-red-900, .text-amber-900) {
+  color: #ffb8c5;
+}
+.dark :is(.border-red-200, .border-amber-200) {
+  border-color: #764253;
+}
+.dark .bg-green-50 {
+  background: #15382f;
+}
+.dark .text-green-800 {
+  color: #b1ebd1;
+}
+.dark .border-green-200 {
+  border-color: #326851;
 }

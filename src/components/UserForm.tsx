@@ -18,7 +18,7 @@ export function UserForm({ initial = false }: { initial?: boolean }) {
         <h1 className="text-3xl font-bold tracking-tight">
           {initial ? "Crea la primera cuenta" : "Agregar usuario"}
         </h1>
-        <p className="text-sm leading-6 text-neutral-500">
+        <p className="text-sm leading-6 text-muted">
           {initial
             ? "Configura el acceso inicial al sistema de vacantes."
             : "La nueva cuenta podrá acceder al sistema y agregar usuarios."}
