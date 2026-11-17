@@ -34,7 +34,7 @@ model Empresa {
 
   // Datos generales
   folio           String?       @unique
-  rfc             String
+  rfc             String        @unique
   curp            String?
   tipoEmpleador   TipoEmpleador
   tipoPersona     TipoPersona?
@@ -60,12 +60,19 @@ model Empresa {
   domicilio   DomicilioEmpresa @relation(fields: [domicilioId], references: [id], onDelete: Cascade, onUpdate: Cascade)
 
   vacantes Vacante[]
+  logo     LogoEmpresa?
 
   creadoEl      DateTime @default(now())
   actualizadoEl DateTime @updatedAt
 
   @@index([razonSocial])
-  @@index([rfc])
+}
+
+model LogoEmpresa {
+  empresaId     String   @id
+  empresa       Empresa  @relation(fields: [empresaId], references: [id], onDelete: Cascade)
+  contenido     Bytes
+  actualizadoEl DateTime @updatedAt
 }
 
 model DomicilioEmpresa {
@@ -117,7 +124,7 @@ model Vacante {
 
   edadMinima  Int?
   edadMaxima  Int?
-  escolaridad String?
+  escolaridad Escolaridad?
   sexo        Sexo
 
   sueldoMensual Decimal @db.Decimal(10, 2)
@@ -125,7 +132,8 @@ model Vacante {
   diasTrabajo    Int?
   horarioTrabajo String?
 
-  experienciaAnios Int
+  experiencia     ExperienciaRequerida
+  datosAnteriores Json?
 
   aceptaDiscapacidad Boolean           @default(false)
   tipoDiscapacidad   TipoDiscapacidad?
@@ -134,11 +142,33 @@ model Vacante {
   conocimientos     String
   prestaciones      String
 
-  tiempoReclutamiento String
+  tiempoReclutamiento TiempoReclutamiento?
 
   // Control interno
-  cubierta      Boolean  @default(false)
+  cubierta      Boolean   @default(false)
   fechaReinicio DateTime
+  fechaFin      DateTime? @db.Date
+  archivada     Boolean   @default(false)
+
+  jornada                   String?
+  turno                     String?
+  horaInicio                String?
+  horaFin                   String?
+  observaciones             String?
+  situacionAcademica        String?
+  carrera                   String?
+  tipoContratacion          String?
+  instruccionesGenerales    String?
+  municipio                 String?
+  direccion                 String?
+  incluyente                Boolean @default(false)
+  tipoVulnerabilidad        String?
+  observacionVulnerabilidad String?
+
+  origenVacanteId String?
+  origenVacante   Vacante?           @relation("ReciclajeVacante", fields: [origenVacanteId], references: [id], onDelete: Restrict)
+  recicladas      Vacante[]          @relation("ReciclajeVacante")
+  historial       HistorialVacante[]
 
   // Relaciones
   mediosContacto MedioContactoVacante[]
@@ -151,6 +181,19 @@ model Vacante {
   @@index([fechaReinicio])
   @@index([cubierta])
   @@index([puesto])
+  @@index([fechaFin])
+  @@index([origenVacanteId])
+}
+
+model HistorialVacante {
+  id        String   @id @default(cuid())
+  vacanteId String
+  vacante   Vacante  @relation(fields: [vacanteId], references: [id], onDelete: Cascade)
+  accion    String
+  fecha     DateTime @default(now())
+  datos     Json
+
+  @@index([vacanteId, fecha])
 }
 
 model MedioContactoVacante {
@@ -169,7 +212,7 @@ model SeguimientoVacante {
   id String @id @default(cuid())
 
   vacanteId String
-  vacante   Vacante @relation(fields: [vacanteId], references: [id], onDelete: Cascade)
+  vacante   Vacante @relation(fields: [vacanteId], references: [id], onDelete: Restrict)
 
   fecha      DateTime             @default(now())
   resultado  ResultadoSeguimiento
@@ -221,6 +264,33 @@ enum TipoDiscapacidad {
   COMUNICACION
   INTELECTUAL_MENTAL
   OTRAS
+}
+
+enum Escolaridad {
+  SIN_ESCOLARIDAD
+  PRIMARIA
+  SECUNDARIA
+  CARRERA_TECNICA
+  BACHILLERATO
+  LICENCIATURA
+  MAESTRIA
+  DOCTORADO
+}
+
+enum ExperienciaRequerida {
+  NINGUNA
+  SEIS_MESES_UN_ANIO
+  DOS_TRES_ANIOS
+  CUATRO_CINCO_ANIOS
+  MAS_CINCO_ANIOS
+}
+
+enum TiempoReclutamiento {
+  INMEDIATO
+  UNA_SEMANA
+  DOS_SEMANAS
+  UN_MES
+  MAS_UN_MES
 }
 
 enum MedioConocimiento {
